@@ -1,0 +1,420 @@
+{
+  "version": "11.0-composition-engine",
+  "source_url": "https://www.kober-sanitaertechnik.de/",
+  "site_type": "onepager",
+  "company_name": "Kontakt - Kober Sanitär GmbH",
+  "industry": "Sanitär-, Heizungs- und Klimatechnik",
+  "archetype": "confident-craft",
+  "archetype_source": "llm",
+  "sections": [
+    "hero",
+    "services",
+    "process",
+    "about",
+    "contact"
+  ],
+  "primary_cta": "Projekt anfragen",
+  "services": [
+    "Sanitärinstallation",
+    "Kunden- und Notdienst",
+    "Wartung",
+    "Gasinstallation",
+    "Flaschnerei",
+    "Kraft-Wärme-Kopplung",
+    "Badmodernisierung und Badezimmerplanung",
+    "Wasserinstallation",
+    "Regenwassernutzung",
+    "Wasseraufbereitung",
+    "Solaranlagen",
+    "Pelletheizung"
+  ],
+  "brand_palette": {
+    "primary": "#173F52",
+    "secondary": "#E3EBE8",
+    "accent": "#49A469",
+    "background": "#F5F7F6",
+    "text": "#19343F",
+    "confidence": 0.25
+  },
+  "palette_strategy": "preserve_primary_modernize_rest",
+  "image_strategy": {
+    "logo": {
+      "file": "images/001-logo-886c88e2.jpg",
+      "role": "logo",
+      "width": 262,
+      "height": 106,
+      "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/01/logo.jpg",
+      "found_on": [
+        "https://www.kober-sanitaertechnik.de/",
+        "https://www.kober-sanitaertechnik.de/kontakt/",
+        "https://www.kober-sanitaertechnik.de/service/",
+        "https://www.kober-sanitaertechnik.de/badmodernisierung/",
+        "https://www.kober-sanitaertechnik.de/flaschnerei/",
+        "https://www.kober-sanitaertechnik.de/gasinstallation/",
+        "https://www.kober-sanitaertechnik.de/heizkraftanlage/",
+        "https://www.kober-sanitaertechnik.de/senertec/",
+        "https://www.kober-sanitaertechnik.de/solar-und-regenwasser-nutzung/",
+        "https://www.kober-sanitaertechnik.de/datenschutzerklaerung/"
+      ]
+    },
+    "hero": {
+      "file": "images/002-unternehmen-d4817392.jpg",
+      "role": "hero",
+      "width": 1200,
+      "height": 340,
+      "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2009/06/unternehmen.jpg",
+      "found_on": [
+        "https://www.kober-sanitaertechnik.de/"
+      ]
+    },
+    "references": [],
+    "portraits": [],
+    "usable": [
+      {
+        "file": "images/001-logo-886c88e2.jpg",
+        "role": "logo",
+        "width": 262,
+        "height": 106,
+        "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/01/logo.jpg",
+        "found_on": [
+          "https://www.kober-sanitaertechnik.de/",
+          "https://www.kober-sanitaertechnik.de/kontakt/",
+          "https://www.kober-sanitaertechnik.de/service/",
+          "https://www.kober-sanitaertechnik.de/badmodernisierung/",
+          "https://www.kober-sanitaertechnik.de/flaschnerei/",
+          "https://www.kober-sanitaertechnik.de/gasinstallation/",
+          "https://www.kober-sanitaertechnik.de/heizkraftanlage/",
+          "https://www.kober-sanitaertechnik.de/senertec/",
+          "https://www.kober-sanitaertechnik.de/solar-und-regenwasser-nutzung/",
+          "https://www.kober-sanitaertechnik.de/datenschutzerklaerung/"
+        ]
+      },
+      {
+        "file": "images/002-unternehmen-d4817392.jpg",
+        "role": "hero",
+        "width": 1200,
+        "height": 340,
+        "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2009/06/unternehmen.jpg",
+        "found_on": [
+          "https://www.kober-sanitaertechnik.de/"
+        ]
+      },
+      {
+        "file": "images/003-unternehmen-300x85-96154823.jpg",
+        "role": "hero",
+        "width": 300,
+        "height": 85,
+        "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2009/06/unternehmen-300x85.jpg",
+        "found_on": [
+          "https://www.kober-sanitaertechnik.de/"
+        ]
+      },
+      {
+        "file": "images/004-unternehmen-1024x290-fb18a4be.jpg",
+        "role": "hero",
+        "width": 1024,
+        "height": 290,
+        "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2009/06/unternehmen-1024x290.jpg",
+        "found_on": [
+          "https://www.kober-sanitaertechnik.de/"
+        ]
+      },
+      {
+        "file": "images/006-logo-duravit-300x71-61062663.png",
+        "role": "logo",
+        "width": 300,
+        "height": 71,
+        "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2009/06/Logo_Duravit-300x71.png",
+        "found_on": [
+          "https://www.kober-sanitaertechnik.de/"
+        ]
+      },
+      {
+        "file": "images/007-keramag-logo-300x101-fda78985.png",
+        "role": "logo",
+        "width": 300,
+        "height": 101,
+        "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2009/06/Keramag_logo-300x101.png",
+        "found_on": [
+          "https://www.kober-sanitaertechnik.de/"
+        ]
+      },
+      {
+        "file": "images/008-hansgrohe-logo-300x62-4ef07239.png",
+        "role": "logo",
+        "width": 300,
+        "height": 62,
+        "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2009/06/Hansgrohe-Logo-300x62.png",
+        "found_on": [
+          "https://www.kober-sanitaertechnik.de/"
+        ]
+      },
+      {
+        "file": "images/009-geberit-logo-300x41-eaaa0b61.png",
+        "role": "logo",
+        "width": 300,
+        "height": 41,
+        "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2009/06/Geberit-Logo-300x41.png",
+        "found_on": [
+          "https://www.kober-sanitaertechnik.de/"
+        ]
+      },
+      {
+        "file": "images/010-kontakt-ec4b0f89.jpg",
+        "role": "hero",
+        "width": 1200,
+        "height": 340,
+        "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/02/kontakt.jpg",
+        "found_on": [
+          "https://www.kober-sanitaertechnik.de/kontakt/",
+          "https://www.kober-sanitaertechnik.de/datenschutzerklaerung/"
+        ]
+      },
+      {
+        "file": "images/011-kontakt-300x85-c12fe330.jpg",
+        "role": "hero",
+        "width": 300,
+        "height": 85,
+        "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/02/kontakt-300x85.jpg",
+        "found_on": [
+          "https://www.kober-sanitaertechnik.de/kontakt/",
+          "https://www.kober-sanitaertechnik.de/datenschutzerklaerung/"
+        ]
+      },
+      {
+        "file": "images/012-kontakt-1024x290-9e2320bf.jpg",
+        "role": "hero",
+        "width": 1024,
+        "height": 290,
+        "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/02/kontakt-1024x290.jpg",
+        "found_on": [
+          "https://www.kober-sanitaertechnik.de/kontakt/",
+          "https://www.kober-sanitaertechnik.de/datenschutzerklaerung/"
+        ]
+      },
+      {
+        "file": "images/013-cb-maps-050d2bb4.png",
+        "role": "hero",
+        "width": 720,
+        "height": 405,
+        "source_url": "https://www.kober-sanitaertechnik.de/wp-content/plugins/borlabs-cookie/assets/images/cb-maps.png",
+        "found_on": [
+          "https://www.kober-sanitaertechnik.de/kontakt/"
+        ]
+      },
+      {
+        "file": "images/014-service-1af202f7.jpg",
+        "role": "hero",
+        "width": 1200,
+        "height": 340,
+        "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/02/service.jpg",
+        "found_on": [
+          "https://www.kober-sanitaertechnik.de/service/"
+        ]
+      },
+      {
+        "file": "images/015-service-300x85-5bfc03b8.jpg",
+        "role": "hero",
+        "width": 300,
+        "height": 85,
+        "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/02/service-300x85.jpg",
+        "found_on": [
+          "https://www.kober-sanitaertechnik.de/service/"
+        ]
+      },
+      {
+        "file": "images/016-service-1024x290-1bbf80b3.jpg",
+        "role": "hero",
+        "width": 1024,
+        "height": 290,
+        "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/02/service-1024x290.jpg",
+        "found_on": [
+          "https://www.kober-sanitaertechnik.de/service/"
+        ]
+      },
+      {
+        "file": "images/017-zusatzbild-service-1300babb.jpg",
+        "role": "hero",
+        "width": 360,
+        "height": 248,
+        "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/02/zusatzbild-service.jpg",
+        "found_on": [
+          "https://www.kober-sanitaertechnik.de/service/"
+        ]
+      },
+      {
+        "file": "images/018-bad-ml-a7f68952.jpg",
+        "role": "hero",
+        "width": 1200,
+        "height": 340,
+        "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2009/06/Bad_ml.jpg",
+        "found_on": [
+          "https://www.kober-sanitaertechnik.de/badmodernisierung/"
+        ]
+      },
+      {
+        "file": "images/019-bad-ml-300x85-a3b020dc.jpg",
+        "role": "hero",
+        "width": 300,
+        "height": 85,
+        "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2009/06/Bad_ml-300x85.jpg",
+        "found_on": [
+          "https://www.kober-sanitaertechnik.de/badmodernisierung/"
+        ]
+      },
+      {
+        "file": "images/020-bad-ml-1024x290-3e292cc7.jpg",
+        "role": "hero",
+        "width": 1024,
+        "height": 290,
+        "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2009/06/Bad_ml-1024x290.jpg",
+        "found_on": [
+          "https://www.kober-sanitaertechnik.de/badmodernisierung/"
+        ]
+      },
+      {
+        "file": "images/021-zusatzbild-bad-53b38ccf.jpg",
+        "role": "hero",
+        "width": 360,
+        "height": 228,
+        "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/02/zusatzbild-bad.jpg",
+        "found_on": [
+          "https://www.kober-sanitaertechnik.de/badmodernisierung/"
+        ]
+      },
+      {
+        "file": "images/022-flaschner-2a6249da.jpg",
+        "role": "hero",
+        "width": 1200,
+        "height": 340,
+        "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/02/flaschner.jpg",
+        "found_on": [
+          "https://www.kober-sanitaertechnik.de/flaschnerei/"
+        ]
+      },
+      {
+        "file": "images/023-flaschner-300x85-92c83b8c.jpg",
+        "role": "hero",
+        "width": 300,
+        "height": 85,
+        "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/02/flaschner-300x85.jpg",
+        "found_on": [
+          "https://www.kober-sanitaertechnik.de/flaschnerei/"
+        ]
+      },
+      {
+        "file": "images/024-flaschner-1024x290-1b0b904d.jpg",
+        "role": "hero",
+        "width": 1024,
+        "height": 290,
+        "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/02/flaschner-1024x290.jpg",
+        "found_on": [
+          "https://www.kober-sanitaertechnik.de/flaschnerei/"
+        ]
+      },
+      {
+        "file": "images/025-zusatzbild-flaschnerei-13aec4d7.jpg",
+        "role": "hero",
+        "width": 360,
+        "height": 240,
+        "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/02/zusatzbild-flaschnerei.jpg",
+        "found_on": [
+          "https://www.kober-sanitaertechnik.de/flaschnerei/"
+        ]
+      },
+      {
+        "file": "images/026-gas-bc9946a9.jpg",
+        "role": "hero",
+        "width": 1200,
+        "height": 340,
+        "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/02/gas.jpg",
+        "found_on": [
+          "https://www.kober-sanitaertechnik.de/gasinstallation/"
+        ]
+      },
+      {
+        "file": "images/027-gas-300x85-a5b4cf30.jpg",
+        "role": "hero",
+        "width": 300,
+        "height": 85,
+        "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/02/gas-300x85.jpg",
+        "found_on": [
+          "https://www.kober-sanitaertechnik.de/gasinstallation/"
+        ]
+      },
+      {
+        "file": "images/028-gas-1024x290-f3469b9d.jpg",
+        "role": "hero",
+        "width": 1024,
+        "height": 290,
+        "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/02/gas-1024x290.jpg",
+        "found_on": [
+          "https://www.kober-sanitaertechnik.de/gasinstallation/"
+        ]
+      },
+      {
+        "file": "images/029-zusatzbild-gas-644b6d44.jpg",
+        "role": "hero",
+        "width": 360,
+        "height": 240,
+        "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/02/zusatzbild-gas.jpg",
+        "found_on": [
+          "https://www.kober-sanitaertechnik.de/gasinstallation/"
+        ]
+      },
+      {
+        "file": "images/030-eenergie-923fdf86.jpg",
+        "role": "hero",
+        "width": 1200,
+        "height": 340,
+        "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/02/eenergie.jpg",
+        "found_on": [
+          "https://www.kober-sanitaertechnik.de/heizkraftanlage/"
+        ]
+      },
+      {
+        "file": "images/031-eenergie-300x85-7eb95fb6.jpg",
+        "role": "hero",
+        "width": 300,
+        "height": 85,
+        "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/02/eenergie-300x85.jpg",
+        "found_on": [
+          "https://www.kober-sanitaertechnik.de/heizkraftanlage/"
+        ]
+      }
+    ],
+    "usage_target": 10
+  },
+  "content_fidelity": {
+    "references_present": false,
+    "service_count": 12,
+    "image_count": 41,
+    "usable_image_count": 30
+  },
+  "design_rules": [
+    {
+      "name": "reference-psm-ingenieure",
+      "path": "app/knowledge/design-system/seeded/reference-psm-ingenieure.md",
+      "excerpt": "--- approved_by_user: true industries: [engineering, architecture] reference: psmingenieure.de --- # Engineering UX Reference Stärken: moderne UX, hochwertige Projektinszenierung, klare visuelle Hierarchie, großzügige Bildflächen, reduzierte Navigation und ruhige Interaktionen. Referenzen und Projekte früh zeigen. Geeignet für Ingenieur-, Architektur- und Planungsbüros."
+    },
+    {
+      "name": "reference-ing-ka-hero",
+      "path": "app/knowledge/design-system/seeded/reference-ing-ka-hero.md",
+      "excerpt": "--- approved_by_user: true industries: [engineering, consulting] reference: ing-ka.de --- # Rotating Service Hero Hero mit wechselnden Leistungsbegriffen. Bewegung ruhig und typografisch präzise. Als Akzent nutzen, nicht als hektischen Slider. Gut für komplexe Dienstleistungsportfolios."
+    },
+    {
+      "name": "reference-energy-consulting",
+      "path": "app/knowledge/design-system/seeded/reference-energy-consulting.md",
+      "excerpt": "--- approved_by_user: true industries: [energy consulting, renovation] reference: kaminkehrermeister-forster.de/energieberatung --- # Energy Consulting Structure Persönliche Vorstellung, verständliche Leistungserklärung, Vertrauensaufbau, klarer Projektablauf und direkte Kontaktführung. Struktur übernehmen, visuelle Gestaltung modernisieren und schwache Formulierungen verbessern."
+    },
+    {
+      "name": "reference-bs-ingenieure",
+      "path": "app/knowledge/design-system/seeded/reference-bs-ingenieure.md",
+      "excerpt": "--- approved_by_user: true industries: [engineering, architecture] reference: bs-ingenieure.com --- # Contemporary Engineering Elements Klare Raster, typografisch geführte Flächen, technische Präzision, gezielte Mikrointeraktionen und projektorientierte Bildsprache. Keine dekorativen Karten ohne Informationsfunktion."
+    }
+  ],
+  "publishing": {
+    "noindex": true,
+    "provider": "github-pages"
+  }
+}
