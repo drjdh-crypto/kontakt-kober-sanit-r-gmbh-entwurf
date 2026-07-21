@@ -1,0 +1,4197 @@
+{
+  "version": "11.0-composition-engine",
+  "archetype": "confident-craft",
+  "layout_family": "organic-flow",
+  "composition": {
+    "version": "9.2-imported-knowledge-runtime",
+    "seed": "https://www.kober-sanitaertechnik.de/|Kontakt - Kober Sanitär GmbH|0",
+    "archetype": {
+      "id": "confident-craft",
+      "category": "archetypes",
+      "title": "Confident Craft",
+      "description": "Robust, direkt, bildstark und handwerklich",
+      "industries": [
+        "craft",
+        "shk",
+        "carpentry",
+        "construction"
+      ],
+      "tags": [
+        "proof-first",
+        "grid-poster",
+        "project-led",
+        "bold-type",
+        "local-proof",
+        "service-index"
+      ],
+      "approved": true,
+      "version": "8.0"
+    },
+    "hero": {
+      "id": "organic-flow",
+      "category": "heroes",
+      "title": "Organic Flow Hero",
+      "description": "Weiche Konturen und fließende Komposition",
+      "industries": [
+        "warm-organic",
+        "clinical-calm"
+      ],
+      "tags": [
+        "soft-mask",
+        "calm",
+        "low"
+      ],
+      "approved": true,
+      "version": "8.0",
+      "imported_atom": {
+        "id": "hero-C-0001",
+        "slug": "creative-agency-conversion-hero",
+        "role": "hero",
+        "category": "hero_pattern",
+        "name": "Creative Agency Conversion Hero",
+        "industries": [
+          "Webdesign-Agenturen",
+          "Branding-Agenturen",
+          "Kreativagenturen",
+          "UX/UI-Studios",
+          "Digitalagenturen"
+        ],
+        "effects": [
+          "selbstbewusst",
+          "conversion-orientiert",
+          "editorial",
+          "vertrauenswürdig",
+          "präzise"
+        ],
+        "archetype": "Conversion Editorial",
+        "genome": {
+          "minimal": 82,
+          "editorial": 88,
+          "conversion_focus": 92,
+          "typography_dominance": 96,
+          "trust_density": 86,
+          "image_dominance": 20,
+          "whitespace": 78
+        },
+        "quality": 94,
+        "modernity": 94,
+        "premium": 88,
+        "innovation": 82,
+        "trust": 91,
+        "palette": {
+          "primary": "#111111",
+          "secondary": "#F2F2EC",
+          "accent": "#D9FF43",
+          "background": "#F7F7F2",
+          "surface": "#FFFFFF",
+          "text": "#111111",
+          "border": "#D8D8D0",
+          "muted": "#6E6E68",
+          "hover": "#C8F230",
+          "gradient": []
+        },
+        "typography": {
+          "headline_style": "Übergroße kompakte Sans-Serif mit engem Zeilenabstand.",
+          "body_style": "Neutrale Grotesk mit begrenzter Zeilenlänge.",
+          "font_categories": [
+            "Neo-Grotesk",
+            "Variable Sans"
+          ],
+          "hierarchy": "Eyebrow 14–16 px; Headline 64–104 px; Body 18–22 px; Metriken 28–42 px.",
+          "line_height": "Headline 0.92–1.02; Body 1.45–1.60.",
+          "letter_spacing": "Headline leicht negativ; Body neutral.",
+          "weight_strategy": "Headline 600–750; Body 400–500.",
+          "generator_rules": [
+            "Headline mindestens dreimal so groß wie Body setzen.",
+            "Semantische Zeilenumbrüche erzwingen."
+          ]
+        },
+        "components": [
+          {
+            "type": "hero",
+            "name": "Offer-to-Outcome Hero",
+            "structure": "Eyebrow, große Headline, Nutzenabsatz, CTA, Kennzahlen und Logos.",
+            "visual_behavior": "Typografisch dominant, bildarm, linksbündig.",
+            "content_behavior": "Führt von Angebot über Nutzen zu Handlung und Beweis.",
+            "best_for": [
+              "Kreativagenturen",
+              "Premium-Dienstleister"
+            ],
+            "avoid_for": [
+              "Anbieter ohne Proof"
+            ],
+            "strengths": [
+              "Sofortige Positionierung",
+              "Hohe Blickbindung"
+            ],
+            "risks": [
+              "Generische Aussagen wirken besonders schwach"
+            ],
+            "reuse_rules": [
+              "Headline auf maximal zwölf Wörter begrenzen.",
+              "Genau einen primären CTA verwenden."
+            ]
+          }
+        ],
+        "animations": [
+          {
+            "type": "staggered_content_reveal",
+            "trigger": "Seitenaufruf",
+            "behavior": "Eyebrow, Headline, Absatz und CTA erscheinen leicht zeitversetzt.",
+            "speed": "300–650 ms",
+            "intensity": "niedrig",
+            "purpose": "Führt die Aufmerksamkeit entlang der Hierarchie.",
+            "best_for": [
+              "Typografie-Heros"
+            ],
+            "avoid_when": [
+              "Viele parallele Animationen"
+            ]
+          }
+        ],
+        "generator_rules": [
+          "Wähle das Muster bei conversion_focus >= 65 und typography_dominance >= 85.",
+          "Begrenze Headline auf zwölf Wörter.",
+          "Nutze drei bis vier Kennzahlen und sechs bis zwölf Logos."
+        ],
+        "design_rules": [
+          "Große Typografie benötigt kurze Aussagen.",
+          "Ein bildarmer Hero braucht starkes Raster und Schriftkontrast."
+        ],
+        "anti_patterns": [
+          "Mehrere gleichgewichtete CTAs",
+          "Unbelegte Kennzahlen",
+          "Dominantes Stockfoto",
+          "Generische Riesenheadline"
+        ],
+        "ux": {
+          "strengths": [
+            "Ein eindeutiges Ziel.",
+            "Proof direkt am Hero.",
+            "Schnell erfassbar ohne Hero-Bild."
+          ],
+          "patterns": [
+            "Offer-to-outcome headline",
+            "Single-primary-action hero",
+            "Metrics-before-logos trust sequence"
+          ],
+          "generator_learning": [
+            "Bei kreativen Dienstleistern Typografie als visuellen Träger nutzen.",
+            "Aussagen mit mindestens zwei Proof-Arten absichern."
+          ]
+        },
+        "layout_system": {
+          "grid": "Zwölfspaltiges Raster; Headline über sieben bis neun Spalten, Trust-Metriken in vier Spalten.",
+          "max_width": "1280–1440 px",
+          "spacing": "96–144 px außen; 24–40 px innerhalb der Textgruppe; 64–96 px bis zum Proof.",
+          "corner_radius": "0–8 px",
+          "density": "Luftiger Hero, kompakter Proof-Bereich."
+        },
+        "information_hierarchy": [
+          "Angebot",
+          "Ergebnis",
+          "Vorgehen",
+          "Handlung",
+          "Proof"
+        ],
+        "conversion_rules": [
+          "Genau einen primären CTA einsetzen.",
+          "Mindestens zwei Beweisarten oberhalb der ersten Inhaltssektion zeigen."
+        ],
+        "source_file": "C:\\Users\\jheim\\Documents\\Websites\\website-automation-bot\\website-automation-bot\\app\\knowledge\\imports\\pending\\creative-agency-conversion-hero.json"
+      }
+    },
+    "navigation": {
+      "id": "mega-services",
+      "category": "navigation",
+      "title": "Service Mega Navigation",
+      "description": "Leistungsgruppen direkt im Menü sichtbar",
+      "industries": [
+        "institutional-modern",
+        "conversion-clean"
+      ],
+      "tags": [
+        "mega-menu"
+      ],
+      "approved": true,
+      "version": "8.0"
+    },
+    "services": {
+      "id": "horizontal-scroll",
+      "category": "services",
+      "title": "Horizontal Service Rail",
+      "description": "Leistungen horizontal entdecken",
+      "industries": [
+        "digital-studio",
+        "beauty-editorial"
+      ],
+      "tags": [
+        "horizontal"
+      ],
+      "approved": true,
+      "version": "8.0",
+      "imported_atom": {
+        "id": "service-C-0003",
+        "slug": "three-pillar-engineering-services",
+        "role": "services",
+        "category": "service_architecture",
+        "name": "Three Pillar Engineering Services",
+        "industries": [
+          "Energieberatung",
+          "Ingenieurbüros",
+          "Baumanagement",
+          "Immobilienberatung",
+          "Nachhaltigkeitsberatung"
+        ],
+        "effects": [
+          "ganzheitlich",
+          "übersichtlich",
+          "fachlich",
+          "vertrauenswürdig",
+          "skalierbar"
+        ],
+        "archetype": "Integrated Engineering Service Architecture",
+        "genome": {
+          "minimal": 72,
+          "editorial": 76,
+          "conversion_focus": 86,
+          "typography_dominance": 62,
+          "trust_density": 94,
+          "image_dominance": 66,
+          "whitespace": 76
+        },
+        "quality": 97,
+        "modernity": 91,
+        "premium": 87,
+        "innovation": 82,
+        "trust": 96,
+        "palette": {
+          "primary": "#173F52",
+          "secondary": "#DDE9E5",
+          "accent": "#47A66A",
+          "background": "#F5F7F6",
+          "surface": "#FFFFFF",
+          "text": "#18333E",
+          "border": "#CFD9D5",
+          "muted": "#66777E",
+          "hover": "#358B56",
+          "gradient": [
+            "linear-gradient(90deg, #D95645 0%, #E2A644 50%, #47A66A 100%)"
+          ]
+        },
+        "typography": {
+          "headline_style": "Technische Sans mit klarer Hierarchie; Säulentitel 28–40 px.",
+          "body_style": "Kurze erklärende Absätze und parallele Listenformulierungen.",
+          "font_categories": [
+            "Humanistische Sans",
+            "Neo-Grotesk"
+          ],
+          "hierarchy": "H2 46–70 px; Säulentitel 28–40 px; Body 17–19 px; Liste 15–17 px.",
+          "line_height": "H2 1.05–1.15; Body 1.5–1.65.",
+          "letter_spacing": "Headlines leicht negativ, Listen neutral.",
+          "weight_strategy": "H2 600–700; Säulentitel 550–650; Body 400.",
+          "generator_rules": [
+            "Alle Säulentitel grammatisch parallel formulieren.",
+            "Unterleistungen als Nomen oder Tätigkeiten einheitlich benennen.",
+            "Lange deutsche Komposita responsive prüfen."
+          ]
+        },
+        "components": [
+          {
+            "type": "service_overview",
+            "name": "Integrated Three-Pillar Service Overview",
+            "structure": "Abschnittseinleitung, drei Hauptsäulen, je Bild, Titel, Kurztext, Leistungsstichpunkte und Vertiefungslink.",
+            "visual_behavior": "Gleichwertige Säulen mit klarer Differenzierung durch Bildmotiv, Begriffe und Unterlisten.",
+            "content_behavior": "Vermittelt ein breites Angebot als zusammenhängenden Beratungsprozess statt als lose Einzelleistungen.",
+            "best_for": [
+              "Ingenieurbüros mit drei Kernbereichen",
+              "Energieberatung plus Bauplanung",
+              "ganzheitliche Immobilienberatung"
+            ],
+            "avoid_for": [
+              "Einzeldienstleister mit nur einem Angebot",
+              "mehr als fünf gleichwertige Hauptbereiche"
+            ],
+            "strengths": [
+              "Sehr hohe Orientierung",
+              "Starke Cross-Selling-Basis",
+              "Gute Skalierbarkeit auf Unterseiten"
+            ],
+            "risks": [
+              "Zu viele Unterpunkte erzeugen Informationsüberlastung",
+              "Unklare Abgrenzung kann Säulen redundant wirken lassen"
+            ],
+            "reuse_rules": [
+              "Drei Hauptsäulen bevorzugen; vier nur bei klarer fachlicher Trennung.",
+              "Je Säule maximal fünf sichtbare Unterleistungen.",
+              "Nutzenzeile vor Fachliste platzieren."
+            ]
+          }
+        ],
+        "animations": [
+          {
+            "type": "staggered_service_reveal",
+            "trigger": "Säulen betreten den Viewport",
+            "behavior": "Bild, Titel und Leistungsstichpunkte erscheinen mit kurzer Staffelung.",
+            "speed": "450–750 ms",
+            "intensity": "niedrig",
+            "purpose": "Drei Säulen unterscheidbar machen, ohne die Übersicht zu verlangsamen.",
+            "best_for": [
+              "Desktop-Serviceübersichten"
+            ],
+            "avoid_when": [
+              "Reduced Motion aktiv",
+              "bereits mehrere Scrollanimationen im selben Abschnitt"
+            ]
+          }
+        ],
+        "generator_rules": [
+          "Wähle bei mindestens drei klaren Hauptleistungsfamilien.",
+          "Erzeuge zuerst eine Taxonomie aus Kundenproblemen und Projektphasen.",
+          "Ordne Unterleistungen exakt einer Primärsäule zu.",
+          "Verlinke jede Säule auf eine vertiefende Ebene."
+        ],
+        "design_rules": [
+          "Leistungsbereiche müssen trennscharf sein.",
+          "Pro Säule gleiche Informationstiefe.",
+          "Bilder müssen reale Tätigkeitsbereiche repräsentieren."
+        ],
+        "anti_patterns": [
+          "neun gleichwertige Servicekacheln",
+          "reine Icon-Sammlung",
+          "ungleiche Textmengen",
+          "Marketingtitel ohne Fachbezug"
+        ],
+        "ux": {
+          "strengths": [
+            "Sehr hohe Orientierung",
+            "Starke Cross-Selling-Basis",
+            "Gute Skalierbarkeit auf Unterseiten"
+          ],
+          "patterns": [
+            "Integrated Three-Pillar Service Overview",
+            "Integrated Engineering Service Architecture"
+          ],
+          "generator_learning": [
+            "Wähle bei mindestens drei klaren Hauptleistungsfamilien.",
+            "Erzeuge zuerst eine Taxonomie aus Kundenproblemen und Projektphasen.",
+            "Ordne Unterleistungen exakt einer Primärsäule zu."
+          ]
+        },
+        "layout_system": {
+          "grid": "Drei Spalten oder gestaffelte 4/4/4-Struktur; auf Tablet 1+2, mobil einspaltig.",
+          "max_width": "1280–1480 px",
+          "spacing": "96–160 px außen; 28–48 px innerhalb der Säulen.",
+          "corner_radius": "0–16 px",
+          "density": "Mittel; je Säule ein Bild, eine Headline, ein Lead und drei bis fünf Punkte."
+        },
+        "information_hierarchy": [
+          "Gesamtversprechen",
+          "Hauptbereiche",
+          "Nutzen",
+          "Einzelleistungen",
+          "Vertiefung"
+        ],
+        "conversion_rules": [
+          "Säulen in passende Detailseiten verlinken.",
+          "Nur ein übergeordneter CTA nach der Gruppe.",
+          "Primäre Anfrage nicht in jeder Säule wiederholen."
+        ],
+        "source_file": "C:\\Users\\jheim\\Documents\\Websites\\website-automation-bot\\website-automation-bot\\app\\knowledge\\imports\\pending\\three-pillar-engineering-services.json"
+      }
+    },
+    "references": {
+      "id": "timeline-projects",
+      "category": "references",
+      "title": "Project Timeline",
+      "description": "Projekte chronologisch oder phasenweise erzählen",
+      "industries": [
+        "engineering",
+        "institutional"
+      ],
+      "tags": [
+        "timeline"
+      ],
+      "approved": true,
+      "version": "8.0",
+      "imported_atom": {
+        "id": "reference-C-0002",
+        "slug": "modern-engineering-consulting",
+        "role": "references",
+        "category": "reference_archetype",
+        "name": "Modern Engineering Consulting",
+        "industries": [
+          "Energieberatung",
+          "Ingenieurbüros",
+          "Baumanagement",
+          "Nachhaltigkeitsberatung",
+          "Sachverständige",
+          "Immobilienberatung"
+        ],
+        "effects": [
+          "ganzheitlich",
+          "persönlich",
+          "fachlich tief",
+          "förderfähig",
+          "conversion-stark",
+          "vertrauenswürdig"
+        ],
+        "archetype": "Modern Engineering Consulting",
+        "genome": {
+          "minimal": 70,
+          "editorial": 80,
+          "conversion_focus": 94,
+          "typography_dominance": 68,
+          "trust_density": 100,
+          "image_dominance": 64,
+          "whitespace": 74
+        },
+        "quality": 99,
+        "modernity": 92,
+        "premium": 91,
+        "innovation": 86,
+        "trust": 100,
+        "palette": {
+          "primary": "#173F52",
+          "secondary": "#E3EBE8",
+          "accent": "#49A469",
+          "background": "#F5F7F6",
+          "surface": "#FFFFFF",
+          "text": "#19343F",
+          "border": "#CFD9D5",
+          "muted": "#6B7A80",
+          "hover": "#378954",
+          "gradient": [
+            "linear-gradient(90deg, #D95745 0%, #E2A743 48%, #49A469 100%)"
+          ]
+        },
+        "typography": {
+          "headline_style": "Moderne technische Sans, klar und zugänglich.",
+          "body_style": "Lesefreundliche Langform mit Listen und Zwischenüberschriften.",
+          "font_categories": [
+            "Humanistische Sans",
+            "Neo-Grotesk"
+          ],
+          "hierarchy": "Hero 58–92 px; H2 42–68 px; H3 26–40 px; Body 17–19 px.",
+          "line_height": "Headlines 1.02–1.16; Body 1.55–1.72.",
+          "letter_spacing": "Headlines leicht negativ.",
+          "weight_strategy": "400–700, maximal drei Hauptgewichte.",
+          "generator_rules": [
+            "Fachbegriffe kontrolliert umbrechen.",
+            "H-Struktur konsequent halten.",
+            "Inhalte zuerst nach Nutzerfragen, dann nach SEO ordnen."
+          ]
+        },
+        "components": [
+          {
+            "type": "reference_system",
+            "name": "Integrated Engineering Advisory Website System",
+            "structure": "Hero → Leistungsübersicht → vertiefte Leistungsfamilien → Zertifikate → Dual CTA → Expertenprofil → Testimonials → Prozess → Referenzen → Kontakt.",
+            "visual_behavior": "Ruhige technische Markenwelt; Abwechslung durch Informationsdichte, Bilder und Proof-Typen.",
+            "content_behavior": "Führt Nutzer von Problemverständnis über Kompetenz und Nachweise zur passenden Kontaktoption.",
+            "best_for": [
+              "Energieberater mit breitem Portfolio",
+              "Ingenieurbüros",
+              "Sachverständige mit Förderkompetenz"
+            ],
+            "avoid_for": [
+              "kleine One-Service-Seiten ohne Proof oder Inhalte"
+            ],
+            "strengths": [
+              "Sehr vollständige Vertrauensarchitektur",
+              "Hohe fachliche und lokale Relevanz",
+              "Starke Conversion-Struktur"
+            ],
+            "risks": [
+              "Überlange Seiten",
+              "Pflegeaufwand für Förderinformationen",
+              "Doppelungen zwischen Unterseiten"
+            ],
+            "reuse_rules": [
+              "Archetyp adaptieren, nicht visuell kopieren.",
+              "Mindestens Leistungsarchitektur, Authority-System und Dual CTA kombinieren.",
+              "Unterseiten nach Content-Ontologie planen."
+            ]
+          }
+        ],
+        "animations": [
+          {
+            "type": "restrained_corporate_motion_system",
+            "trigger": "ausgewählte Sektionen",
+            "behavior": "Leichte Reveals für Leistungsblöcke, Proof-Gruppen und Prozess; keine dominante Scrollshow.",
+            "speed": "400–850 ms",
+            "intensity": "niedrig",
+            "purpose": "Informationshierarchie unterstützen.",
+            "best_for": [
+              "vertrauensgetriebene B2B-Websites"
+            ],
+            "avoid_when": [
+              "Animation ersetzt Struktur"
+            ]
+          }
+        ],
+        "generator_rules": [
+          "Wähle bei technical >= 75, trust_requirement >= 80 und mindestens drei Leistungsfamilien.",
+          "Kombiniere service-C-0003, content-C-0001, authority-C-0001, trust-C-0005 und cta-C-0002.",
+          "Generiere Unterseiten aus derselben Leistungsontologie.",
+          "Prüfe zeitkritische Fakten vor Veröffentlichung.",
+          "Setze bei Prototypen noindex, nofollow."
+        ],
+        "design_rules": [
+          "Keine optische Kopie der Quelle.",
+          "Alle Proof-Aussagen verifizieren.",
+          "Leistungsinhalte vollständig und hierarchisch modellieren.",
+          "noindex bei Entwurfsseiten setzen."
+        ],
+        "anti_patterns": [
+          "Standard-WordPress-Kachelwand",
+          "ungeordnete Leistungsliste",
+          "Logo-Friedhof",
+          "anonymer Unternehmensauftritt",
+          "veraltete Förderinformationen"
+        ],
+        "ux": {
+          "strengths": [
+            "Sehr vollständige Vertrauensarchitektur",
+            "Hohe fachliche und lokale Relevanz",
+            "Starke Conversion-Struktur"
+          ],
+          "patterns": [
+            "Integrated Engineering Advisory Website System",
+            "Modern Engineering Consulting"
+          ],
+          "generator_learning": [
+            "Wähle bei technical >= 75, trust_requirement >= 80 und mindestens drei Leistungsfamilien.",
+            "Kombiniere service-C-0003, content-C-0001, authority-C-0001, trust-C-0005 und cta-C-0002.",
+            "Generiere Unterseiten aus derselben Leistungsontologie."
+          ]
+        },
+        "layout_system": {
+          "grid": "Flexibles 12-Spalten-System; Hero, Drei-Säulen-Übersicht, Split-Leistungen, Proof-Cluster, Expertenprofil, Testimonials, Prozess, Kontakt.",
+          "max_width": "1280–1480 px",
+          "spacing": "Kapitel 110–190 px; interne Module 24–72 px.",
+          "corner_radius": "0–16 px",
+          "density": "Mittel; fachlich reich, aber hierarchisch kontrolliert."
+        },
+        "information_hierarchy": [
+          "Angebot",
+          "Leistungsbreite",
+          "institutionelle Autorität",
+          "persönliche Verantwortung",
+          "soziale Beweise",
+          "Prozess",
+          "praktische Beweise",
+          "Conversion"
+        ],
+        "conversion_rules": [
+          "Kontakt- und Terminpfad mehrfach, aber kontextbezogen anbieten.",
+          "Erst nach Trust und Leistungsbezug stark konvertieren.",
+          "Formular nach Projektart vorqualifizieren."
+        ],
+        "source_file": "C:\\Users\\jheim\\Documents\\Websites\\website-automation-bot\\website-automation-bot\\app\\knowledge\\imports\\pending\\modern-engineering-consulting.json"
+      }
+    },
+    "typography": {
+      "id": "typography-C-0002",
+      "category": "typography",
+      "title": "Geometric Sans",
+      "description": "Präzise, modern und selbstbewusst",
+      "industries": [
+        "digital",
+        "architecture"
+      ],
+      "tags": [
+        "Avenir Next",
+        "Arial"
+      ],
+      "approved": true,
+      "version": "8.0",
+      "imported_atom": {
+        "id": "typography-C-0002",
+        "slug": "technical-editorial-type-system",
+        "role": "typography",
+        "category": "typography_system",
+        "name": "Technical Editorial Type System",
+        "industries": [
+          "Ingenieurbüros",
+          "Geotechnik",
+          "Architektur",
+          "Infrastruktur",
+          "B2B-Technologie"
+        ],
+        "effects": [
+          "präzise",
+          "modern",
+          "technisch",
+          "menschlich",
+          "editorial"
+        ],
+        "archetype": "Technical Editorial",
+        "genome": {
+          "minimal": 82,
+          "editorial": 90,
+          "conversion_focus": 62,
+          "typography_dominance": 94,
+          "trust_density": 80,
+          "image_dominance": 36,
+          "whitespace": 82
+        },
+        "quality": 96,
+        "modernity": 94,
+        "premium": 89,
+        "innovation": 84,
+        "trust": 93,
+        "palette": {
+          "primary": "#23343B",
+          "secondary": "#E3E7E4",
+          "accent": "#E7A33E",
+          "background": "#F2EFE8",
+          "surface": "#FFFFFF",
+          "text": "#23343B",
+          "border": "#CED4D1",
+          "muted": "#6F7C80",
+          "hover": "#D48E2C",
+          "gradient": []
+        },
+        "typography": {
+          "headline_style": "Breite moderne Sans mit selbstbewusster Größe und klarer x-Höhe.",
+          "body_style": "Unaufgeregte Sans, 17–20 px, kurze Zeilen.",
+          "font_categories": [
+            "Humanistische Sans",
+            "Grotesk",
+            "Variable Sans"
+          ],
+          "hierarchy": "Hero 64–108 px; H2 44–72 px; H3 26–38 px; Body 17–20 px; Meta 13–15 px.",
+          "line_height": "Hero 0.95–1.05; H2 1.0–1.12; Body 1.5–1.7.",
+          "letter_spacing": "Headlines -0.02em bis -0.04em; Body neutral.",
+          "weight_strategy": "400 für Body, 550–650 für Headlines, 700 nur punktuell.",
+          "generator_rules": [
+            "Fachbegriffe semantisch umbrechen.",
+            "Textbreite auf 55–72 Zeichen begrenzen.",
+            "Überschriften nicht zentrieren, wenn sie länger als zwei Zeilen sind."
+          ]
+        },
+        "components": [
+          {
+            "type": "typography",
+            "name": "Engineering Editorial Hierarchy",
+            "structure": "Eyebrow, große Fachheadline, kurzer Lead, strukturierte Detailtexte.",
+            "visual_behavior": "Große Typografie erzeugt Haltung; kleine Ebenen liefern Präzision.",
+            "content_behavior": "Führt von verständlicher Kernaussage zu fachlicher Tiefe.",
+            "best_for": [
+              "Technische Dienstleistungen",
+              "Planungsbüros",
+              "Infrastrukturunternehmen"
+            ],
+            "avoid_for": [
+              "extrem verspielte Marken"
+            ],
+            "strengths": [
+              "Hohe Klarheit",
+              "Premiumwirkung ohne Luxusklischee"
+            ],
+            "risks": [
+              "Ungeplante Wortumbrüche bei langen Fachbegriffen"
+            ],
+            "reuse_rules": [
+              "Manuelle Soft-Hyphens oder responsive Alternativumbrüche vorsehen.",
+              "Maximal drei Schriftgewichte."
+            ]
+          }
+        ],
+        "animations": [],
+        "generator_rules": [
+          "Wähle bei technical >= 70 und premium >= 60.",
+          "Nutze fluid typography mit clamp().",
+          "Prüfe deutsche Komposita auf jeder Breakpoint-Stufe."
+        ],
+        "design_rules": [
+          "Keine dekorative Display-Schrift für Gutachten- oder Infrastrukturthemen.",
+          "Bindestriche und Zeilenumbrüche redaktionell kontrollieren."
+        ],
+        "anti_patterns": [
+          "zu dünne Headlines",
+          "lange zentrierte Fachtexte",
+          "fünf oder mehr Schriftgewichte",
+          "ungeplante Trennungen"
+        ],
+        "ux": {
+          "strengths": [
+            "Hohe Klarheit",
+            "Premiumwirkung ohne Luxusklischee"
+          ],
+          "patterns": [
+            "Engineering Editorial Hierarchy",
+            "Technical Editorial"
+          ],
+          "generator_learning": [
+            "Wähle bei technical >= 70 und premium >= 60.",
+            "Nutze fluid typography mit clamp()."
+          ]
+        },
+        "layout_system": {
+          "grid": "Headlines 6–10 Spalten; Lesetext 4–6 Spalten; Listen modular daneben.",
+          "max_width": "1280–1440 px",
+          "spacing": "80–160 px zwischen Typoebenen.",
+          "corner_radius": "nicht relevant",
+          "density": "Luftig mit lokal kompakten Fachlisten."
+        },
+        "information_hierarchy": [
+          "Thema",
+          "Nutzen",
+          "fachliche Erklärung",
+          "Details",
+          "Aktion"
+        ],
+        "conversion_rules": [
+          "Kernaussage vor Fachbegriffen formulieren.",
+          "Fachlisten erst nach verständlichem Lead zeigen."
+        ],
+        "source_file": "C:\\Users\\jheim\\Documents\\Websites\\website-automation-bot\\website-automation-bot\\app\\knowledge\\imports\\pending\\technical-editorial-type-system.json"
+      }
+    },
+    "animation": {
+      "id": "counter-proof",
+      "category": "animations",
+      "title": "Proof Counter",
+      "description": "Kennzahlen zählen beim Eintritt hoch",
+      "industries": [
+        "conversion"
+      ],
+      "tags": [
+        "functional"
+      ],
+      "approved": true,
+      "version": "8.0",
+      "imported_atom": {
+        "id": "motion-C-0002",
+        "slug": "scroll-text-color-reveal",
+        "role": "animation",
+        "category": "motion_pattern",
+        "name": "Scroll Text Color Reveal",
+        "industries": [
+          "Ingenieurbüros",
+          "Architektur",
+          "Technologie",
+          "Nachhaltigkeit",
+          "Premium-Dienstleister"
+        ],
+        "effects": [
+          "immersiv",
+          "editorial",
+          "fokussierend",
+          "hochwertig",
+          "progressiv"
+        ],
+        "archetype": "Immersive Editorial",
+        "genome": {
+          "minimal": 82,
+          "editorial": 96,
+          "conversion_focus": 54,
+          "typography_dominance": 100,
+          "trust_density": 48,
+          "image_dominance": 12,
+          "whitespace": 88
+        },
+        "quality": 98,
+        "modernity": 97,
+        "premium": 94,
+        "innovation": 98,
+        "trust": 78,
+        "palette": {
+          "primary": "#24323A",
+          "secondary": "#D9DFDC",
+          "accent": "#F2A541",
+          "background": "#F4F1E9",
+          "surface": "#FFFFFF",
+          "text": "#24323A",
+          "border": "#C9D0CC",
+          "muted": "#A8B0AD",
+          "hover": "#E4932F",
+          "gradient": [
+            "linear-gradient(90deg, #24323A 0%, #F2A541 100%)"
+          ]
+        },
+        "typography": {
+          "headline_style": "Große Grotesk oder humanistische Sans mit klaren Wortformen.",
+          "body_style": "Nicht als normaler Fließtext behandeln; Statement-Typografie.",
+          "font_categories": [
+            "Variable Sans",
+            "Neo-Grotesk",
+            "Humanistische Sans"
+          ],
+          "hierarchy": "Statement 42–86 px; Eyebrow 13–16 px.",
+          "line_height": "0.98–1.15",
+          "letter_spacing": "leicht negativ bis neutral",
+          "weight_strategy": "450–650; keine extrem dünnen Schnitte.",
+          "generator_rules": [
+            "Semantische Zeilenumbrüche setzen.",
+            "Pro Zeile drei bis sieben Wörter anstreben.",
+            "Mobile Schriftgröße und Scrollstrecke separat definieren."
+          ]
+        },
+        "components": [
+          {
+            "type": "scroll_typography",
+            "name": "Progressive Color-Fill Statement",
+            "structure": "Eyebrow optional, zwei bis fünf Textzeilen, scrollgebundene Farbmaske.",
+            "visual_behavior": "Text wechselt synchron zum Scrollen von einer matten Grundfarbe in die aktive Markenfarbe.",
+            "content_behavior": "Die Aussage wird in kontrolliertem Tempo gelesen und emotional aufgeladen.",
+            "best_for": [
+              "Manifest-Statements",
+              "Positionierung",
+              "Vision",
+              "Markenversprechen"
+            ],
+            "avoid_for": [
+              "Rechtstexte",
+              "FAQ-Antworten",
+              "lange Fließtexte"
+            ],
+            "strengths": [
+              "Sehr hohe Aufmerksamkeit",
+              "Klares Lesetempo",
+              "Starker Wiedererkennungswert"
+            ],
+            "risks": [
+              "Kann bei zu langer Scrollstrecke träge wirken",
+              "Schlechte Lesbarkeit ohne Fallback"
+            ],
+            "reuse_rules": [
+              "Maximal ein bis zwei Vorkommen pro Seite.",
+              "Auf höchstens 35–55 Wörter begrenzen.",
+              "Aktive Farbe muss WCAG-konform kontrastieren."
+            ]
+          }
+        ],
+        "animations": [
+          {
+            "type": "scroll_progress_text_fill",
+            "trigger": "Element betritt 20–30 % des Viewports",
+            "behavior": "Eine Clip-Mask oder zeilenweise Spans legen die aktive Textfarbe proportional zum Scrollfortschritt über die Grundfarbe.",
+            "speed": "direkt an Scrollposition gekoppelt; leichte Glättung 80–180 ms",
+            "intensity": "mittel",
+            "purpose": "Leserhythmus steuern und Kernaussage emotionalisieren.",
+            "best_for": [
+              "Vision-Statements",
+              "Editoriale Übergänge"
+            ],
+            "avoid_when": [
+              "Reduced Motion aktiv",
+              "Text länger als 55 Wörter",
+              "mehrere parallele Scroll-Effekte"
+            ]
+          }
+        ],
+        "generator_rules": [
+          "Wähle das Muster bei innovation >= 80 und typography_dominance >= 85.",
+          "Begrenze den Inhalt auf 35–55 Wörter.",
+          "Implementiere bevorzugt mit CSS Custom Property plus IntersectionObserver/ScrollTimeline oder GSAP ScrollTrigger.",
+          "Bei prefers-reduced-motion sofort Endzustand anzeigen."
+        ],
+        "design_rules": [
+          "Animation muss ohne JavaScript als vollständig lesbarer Text bestehen bleiben.",
+          "Scrollstrecke an Textlänge koppeln, nicht pauschal an Viewport-Höhen.",
+          "Keine zufällige Wortfärbung; immer Leserichtung beibehalten."
+        ],
+        "anti_patterns": [
+          "Buchstabenweise hektisches Flackern",
+          "zu geringe Grundkontraste",
+          "mehrere Reveal-Texte direkt hintereinander",
+          "Animation ohne Reduced-Motion-Fallback"
+        ],
+        "ux": {
+          "strengths": [
+            "Sehr hohe Aufmerksamkeit",
+            "Klares Lesetempo",
+            "Starker Wiedererkennungswert"
+          ],
+          "patterns": [
+            "Progressive Color-Fill Statement",
+            "Immersive Editorial"
+          ],
+          "generator_learning": [
+            "Wähle das Muster bei innovation >= 80 und typography_dominance >= 85.",
+            "Begrenze den Inhalt auf 35–55 Wörter."
+          ]
+        },
+        "layout_system": {
+          "grid": "Textblock über 7–10 von 12 Spalten; großzügige seitliche Sicherheitszone.",
+          "max_width": "1100–1360 px",
+          "spacing": "120–220 px vertikal; 32–64 px innerhalb des Textblocks.",
+          "corner_radius": "nicht relevant",
+          "density": "Sehr luftig; ein dominanter Textgedanke pro Abschnitt."
+        },
+        "information_hierarchy": [
+          "Kontext",
+          "Kernaussage",
+          "progressive Betonung",
+          "Abschlussgedanke"
+        ],
+        "conversion_rules": [
+          "Nicht direkt als CTA verwenden.",
+          "Nach Abschluss des Reveals einen ruhigen CTA oder Inhaltswechsel platzieren."
+        ],
+        "source_file": "C:\\Users\\jheim\\Documents\\Websites\\website-automation-bot\\website-automation-bot\\app\\knowledge\\imports\\pending\\scroll-text-color-reveal.json"
+      }
+    },
+    "palette": {
+      "id": "palette-C-0002",
+      "category": "palettes",
+      "title": "Burgundy Blush",
+      "description": "Kuratierte Palette",
+      "industries": [
+        "all"
+      ],
+      "tags": [
+        "palette"
+      ],
+      "approved": true,
+      "version": "8.0",
+      "colors": {
+        "primary": "#143B5D",
+        "secondary": "#EAF5F5",
+        "accent": "#F5A623",
+        "background": "#F7FBFA",
+        "surface": "#FFFFFF",
+        "text": "#17364A",
+        "border": "#CFE2E3",
+        "muted": "#69818E",
+        "hover": "#0FA7C7"
+      },
+      "imported_atom": {
+        "id": "palette-C-0002",
+        "slug": "eco-energy-blue-orange-palette",
+        "role": "palette",
+        "category": "palette",
+        "name": "Eco Energy Blue-Orange Palette",
+        "industries": [
+          "Energieberatung",
+          "Gebäudetechnik",
+          "Nachhaltigkeit",
+          "Ingenieurwesen",
+          "Solar",
+          "Klimatechnik"
+        ],
+        "effects": [
+          "kompetent",
+          "frisch",
+          "technisch",
+          "freundlich",
+          "energetisch"
+        ],
+        "archetype": "Technical Eco Palette",
+        "genome": {
+          "technical": 82,
+          "corporate": 78,
+          "warm": 62,
+          "organic": 54,
+          "clarity": 94,
+          "conversion_focus": 74
+        },
+        "quality": 90,
+        "modernity": 83,
+        "premium": 70,
+        "innovation": 64,
+        "trust": 88,
+        "palette": {
+          "primary": "#143B5D",
+          "secondary": "#EAF5F5",
+          "accent": "#F5A623",
+          "background": "#F7FBFA",
+          "surface": "#FFFFFF",
+          "text": "#17364A",
+          "border": "#CFE2E3",
+          "muted": "#69818E",
+          "hover": "#0FA7C7",
+          "gradient": [
+            "linear-gradient(135deg, #0FA7C7 0%, #3BC7B1 100%)"
+          ]
+        },
+        "typography": {
+          "headline_style": "Petrolfarbene kräftige Headlines.",
+          "body_style": "Dunkler Blau-Grau-Ton auf Warmweiß.",
+          "font_categories": [
+            "Humanist Sans"
+          ],
+          "hierarchy": "Farbe unterstützt die Typohierarchie.",
+          "line_height": "Nicht farbabhängig.",
+          "letter_spacing": "Nicht farbabhängig.",
+          "weight_strategy": "Orange ersetzt keine Gewichtung.",
+          "generator_rules": [
+            "Orange nicht für lange Texte.",
+            "Fokuszustände zusätzlich mit Form oder Outline markieren."
+          ]
+        },
+        "components": [
+          {
+            "type": "color_system",
+            "name": "Eco Energy Palette",
+            "structure": "Petrolblau, Türkis/Blaugrün, Warmweiß und Orange.",
+            "visual_behavior": "Kühle Vertrauensfarben dominieren; Orange erscheint punktuell.",
+            "content_behavior": "Verbindet technische Kompetenz mit Energie und Zugänglichkeit.",
+            "best_for": [
+              "Energie",
+              "Gebäudetechnik",
+              "Nachhaltigkeit"
+            ],
+            "avoid_for": [
+              "Luxusmarken mit monochromem Anspruch"
+            ],
+            "strengths": [
+              "Branchenfit",
+              "Hohe Funktionsklarheit"
+            ],
+            "risks": [
+              "Kann bei zu viel Türkis generisch wirken"
+            ],
+            "reuse_rules": [
+              "Orange unter 10 % Flächenanteil.",
+              "Dunkles Petrol für Text.",
+              "Große Flächen eher helles Blaugrün als gesättigtes Cyan."
+            ]
+          }
+        ],
+        "animations": [
+          {
+            "type": "accent_color_transition",
+            "trigger": "Hover/Fokus",
+            "behavior": "Orange oder Türkis wechselt kurz in einen dunkleren Zustand.",
+            "speed": "120–220 ms",
+            "intensity": "niedrig",
+            "purpose": "Signalisiert Interaktion.",
+            "best_for": [
+              "Buttons",
+              "Links"
+            ],
+            "avoid_when": [
+              "Farbe als einziger Fokusindikator"
+            ]
+          }
+        ],
+        "generator_rules": [
+          "Setze primary auf dunkles Petrol, secondary auf helles Blaugrün und accent auf Orange.",
+          "Begrenze Orange auf 5–10 %.",
+          "Nutze Warmweiß statt reinem Weiß für große Hintergründe."
+        ],
+        "design_rules": [
+          "Farbrollen müssen über die Seite konsistent bleiben.",
+          "Orange ist Energiesignal, keine allgemeine Dekorationsfarbe."
+        ],
+        "anti_patterns": [
+          "Cyan auf Weiß mit zu wenig Kontrast",
+          "Orange Fließtexte",
+          "vier Akzentfarben",
+          "kaltes Reinweiß überall"
+        ],
+        "ux": {
+          "strengths": [
+            "Farbrollen sind intuitiv: Blau für Vertrauen, Grün für Nachhaltigkeit, Orange für Handlung.",
+            "Warmweiß reduziert technische Kälte."
+          ],
+          "patterns": [
+            "Technical eco color roles",
+            "Warm energy accent",
+            "Blue-green trust field"
+          ],
+          "generator_learning": [
+            "Akzentfarbe funktional reservieren.",
+            "Illustrationen und UI-Komponenten auf gemeinsame Farbtöne abstimmen."
+          ]
+        },
+        "layout_system": {
+          "grid": "Nicht layoutgebunden.",
+          "max_width": "Nicht anwendbar.",
+          "spacing": "Orange Akzente benötigen großzügiges neutrales Umfeld.",
+          "corner_radius": "Nicht anwendbar.",
+          "density": "Farblich moderat."
+        },
+        "information_hierarchy": [
+          "Vertrauen",
+          "Nachhaltigkeit",
+          "Handlung",
+          "Sekundärinformation"
+        ],
+        "conversion_rules": [
+          "Primäre CTA kann Orange oder dunkles Petrol sein; nicht beide gleichgewichtig."
+        ],
+        "source_file": "C:\\Users\\jheim\\Documents\\Websites\\website-automation-bot\\website-automation-bot\\app\\knowledge\\imports\\pending\\eco-energy-blue-orange-palette.json"
+      }
+    },
+    "anti_patterns": [
+      {
+        "id": "late-proof",
+        "category": "anti-patterns",
+        "title": "Proof nicht verstecken",
+        "description": "Referenzen und Vertrauenssignale früh zeigen",
+        "industries": [
+          "engineering",
+          "craft",
+          "consulting"
+        ],
+        "tags": [
+          "avoid"
+        ],
+        "approved": true,
+        "version": "8.0"
+      },
+      {
+        "id": "same-hero-everywhere",
+        "category": "anti-patterns",
+        "title": "Kein identischer Hero",
+        "description": "Nicht jede Seite mit Text links und Bild rechts starten",
+        "industries": [
+          "all"
+        ],
+        "tags": [
+          "avoid"
+        ],
+        "approved": true,
+        "version": "8.0"
+      },
+      {
+        "id": "random-palette",
+        "category": "anti-patterns",
+        "title": "Keine beliebige Palette",
+        "description": "Farben aus Marke, Branche und Bildwelt ableiten",
+        "industries": [
+          "all"
+        ],
+        "tags": [
+          "avoid"
+        ],
+        "approved": true,
+        "version": "8.0"
+      },
+      {
+        "id": "generic-rounded-cards",
+        "category": "anti-patterns",
+        "title": "Keine generischen Rundkarten",
+        "description": "Runde Standardkarten nicht als Default einsetzen",
+        "industries": [
+          "all"
+        ],
+        "tags": [
+          "avoid"
+        ],
+        "approved": true,
+        "version": "8.0"
+      },
+      {
+        "id": "empty-marketing-copy",
+        "category": "anti-patterns",
+        "title": "Keine leeren Floskeln",
+        "description": "Konkrete Leistungen, Belege und Besonderheiten nennen",
+        "industries": [
+          "all"
+        ],
+        "tags": [
+          "avoid"
+        ],
+        "approved": true,
+        "version": "8.0"
+      }
+    ],
+    "section_order": [
+      "hero",
+      "services",
+      "about",
+      "contact"
+    ],
+    "knowledge_stats": {
+      "animations": 10,
+      "anti-patterns": 8,
+      "archetypes": 15,
+      "heroes": 20,
+      "navigation": 10,
+      "palettes": 36,
+      "references": 10,
+      "services": 12,
+      "typography": 10
+    },
+    "imported_knowledge_stats": {
+      "total": 45,
+      "layout": 6,
+      "background": 1,
+      "trust": 8,
+      "animation": 2,
+      "services": 4,
+      "footer": 1,
+      "references": 5,
+      "process": 2,
+      "hero": 2,
+      "image": 2,
+      "contact": 3,
+      "palette": 2,
+      "faq": 1,
+      "ux": 3,
+      "content": 1,
+      "typography": 2
+    },
+    "imported_atoms": {
+      "hero": {
+        "id": "hero-C-0001",
+        "slug": "creative-agency-conversion-hero",
+        "role": "hero",
+        "category": "hero_pattern",
+        "name": "Creative Agency Conversion Hero",
+        "industries": [
+          "Webdesign-Agenturen",
+          "Branding-Agenturen",
+          "Kreativagenturen",
+          "UX/UI-Studios",
+          "Digitalagenturen"
+        ],
+        "effects": [
+          "selbstbewusst",
+          "conversion-orientiert",
+          "editorial",
+          "vertrauenswürdig",
+          "präzise"
+        ],
+        "archetype": "Conversion Editorial",
+        "genome": {
+          "minimal": 82,
+          "editorial": 88,
+          "conversion_focus": 92,
+          "typography_dominance": 96,
+          "trust_density": 86,
+          "image_dominance": 20,
+          "whitespace": 78
+        },
+        "quality": 94,
+        "modernity": 94,
+        "premium": 88,
+        "innovation": 82,
+        "trust": 91,
+        "palette": {
+          "primary": "#111111",
+          "secondary": "#F2F2EC",
+          "accent": "#D9FF43",
+          "background": "#F7F7F2",
+          "surface": "#FFFFFF",
+          "text": "#111111",
+          "border": "#D8D8D0",
+          "muted": "#6E6E68",
+          "hover": "#C8F230",
+          "gradient": []
+        },
+        "typography": {
+          "headline_style": "Übergroße kompakte Sans-Serif mit engem Zeilenabstand.",
+          "body_style": "Neutrale Grotesk mit begrenzter Zeilenlänge.",
+          "font_categories": [
+            "Neo-Grotesk",
+            "Variable Sans"
+          ],
+          "hierarchy": "Eyebrow 14–16 px; Headline 64–104 px; Body 18–22 px; Metriken 28–42 px.",
+          "line_height": "Headline 0.92–1.02; Body 1.45–1.60.",
+          "letter_spacing": "Headline leicht negativ; Body neutral.",
+          "weight_strategy": "Headline 600–750; Body 400–500.",
+          "generator_rules": [
+            "Headline mindestens dreimal so groß wie Body setzen.",
+            "Semantische Zeilenumbrüche erzwingen."
+          ]
+        },
+        "components": [
+          {
+            "type": "hero",
+            "name": "Offer-to-Outcome Hero",
+            "structure": "Eyebrow, große Headline, Nutzenabsatz, CTA, Kennzahlen und Logos.",
+            "visual_behavior": "Typografisch dominant, bildarm, linksbündig.",
+            "content_behavior": "Führt von Angebot über Nutzen zu Handlung und Beweis.",
+            "best_for": [
+              "Kreativagenturen",
+              "Premium-Dienstleister"
+            ],
+            "avoid_for": [
+              "Anbieter ohne Proof"
+            ],
+            "strengths": [
+              "Sofortige Positionierung",
+              "Hohe Blickbindung"
+            ],
+            "risks": [
+              "Generische Aussagen wirken besonders schwach"
+            ],
+            "reuse_rules": [
+              "Headline auf maximal zwölf Wörter begrenzen.",
+              "Genau einen primären CTA verwenden."
+            ]
+          }
+        ],
+        "animations": [
+          {
+            "type": "staggered_content_reveal",
+            "trigger": "Seitenaufruf",
+            "behavior": "Eyebrow, Headline, Absatz und CTA erscheinen leicht zeitversetzt.",
+            "speed": "300–650 ms",
+            "intensity": "niedrig",
+            "purpose": "Führt die Aufmerksamkeit entlang der Hierarchie.",
+            "best_for": [
+              "Typografie-Heros"
+            ],
+            "avoid_when": [
+              "Viele parallele Animationen"
+            ]
+          }
+        ],
+        "generator_rules": [
+          "Wähle das Muster bei conversion_focus >= 65 und typography_dominance >= 85.",
+          "Begrenze Headline auf zwölf Wörter.",
+          "Nutze drei bis vier Kennzahlen und sechs bis zwölf Logos."
+        ],
+        "design_rules": [
+          "Große Typografie benötigt kurze Aussagen.",
+          "Ein bildarmer Hero braucht starkes Raster und Schriftkontrast."
+        ],
+        "anti_patterns": [
+          "Mehrere gleichgewichtete CTAs",
+          "Unbelegte Kennzahlen",
+          "Dominantes Stockfoto",
+          "Generische Riesenheadline"
+        ],
+        "ux": {
+          "strengths": [
+            "Ein eindeutiges Ziel.",
+            "Proof direkt am Hero.",
+            "Schnell erfassbar ohne Hero-Bild."
+          ],
+          "patterns": [
+            "Offer-to-outcome headline",
+            "Single-primary-action hero",
+            "Metrics-before-logos trust sequence"
+          ],
+          "generator_learning": [
+            "Bei kreativen Dienstleistern Typografie als visuellen Träger nutzen.",
+            "Aussagen mit mindestens zwei Proof-Arten absichern."
+          ]
+        },
+        "layout_system": {
+          "grid": "Zwölfspaltiges Raster; Headline über sieben bis neun Spalten, Trust-Metriken in vier Spalten.",
+          "max_width": "1280–1440 px",
+          "spacing": "96–144 px außen; 24–40 px innerhalb der Textgruppe; 64–96 px bis zum Proof.",
+          "corner_radius": "0–8 px",
+          "density": "Luftiger Hero, kompakter Proof-Bereich."
+        },
+        "information_hierarchy": [
+          "Angebot",
+          "Ergebnis",
+          "Vorgehen",
+          "Handlung",
+          "Proof"
+        ],
+        "conversion_rules": [
+          "Genau einen primären CTA einsetzen.",
+          "Mindestens zwei Beweisarten oberhalb der ersten Inhaltssektion zeigen."
+        ],
+        "source_file": "C:\\Users\\jheim\\Documents\\Websites\\website-automation-bot\\website-automation-bot\\app\\knowledge\\imports\\pending\\creative-agency-conversion-hero.json"
+      },
+      "services": {
+        "id": "service-C-0003",
+        "slug": "three-pillar-engineering-services",
+        "role": "services",
+        "category": "service_architecture",
+        "name": "Three Pillar Engineering Services",
+        "industries": [
+          "Energieberatung",
+          "Ingenieurbüros",
+          "Baumanagement",
+          "Immobilienberatung",
+          "Nachhaltigkeitsberatung"
+        ],
+        "effects": [
+          "ganzheitlich",
+          "übersichtlich",
+          "fachlich",
+          "vertrauenswürdig",
+          "skalierbar"
+        ],
+        "archetype": "Integrated Engineering Service Architecture",
+        "genome": {
+          "minimal": 72,
+          "editorial": 76,
+          "conversion_focus": 86,
+          "typography_dominance": 62,
+          "trust_density": 94,
+          "image_dominance": 66,
+          "whitespace": 76
+        },
+        "quality": 97,
+        "modernity": 91,
+        "premium": 87,
+        "innovation": 82,
+        "trust": 96,
+        "palette": {
+          "primary": "#173F52",
+          "secondary": "#DDE9E5",
+          "accent": "#47A66A",
+          "background": "#F5F7F6",
+          "surface": "#FFFFFF",
+          "text": "#18333E",
+          "border": "#CFD9D5",
+          "muted": "#66777E",
+          "hover": "#358B56",
+          "gradient": [
+            "linear-gradient(90deg, #D95645 0%, #E2A644 50%, #47A66A 100%)"
+          ]
+        },
+        "typography": {
+          "headline_style": "Technische Sans mit klarer Hierarchie; Säulentitel 28–40 px.",
+          "body_style": "Kurze erklärende Absätze und parallele Listenformulierungen.",
+          "font_categories": [
+            "Humanistische Sans",
+            "Neo-Grotesk"
+          ],
+          "hierarchy": "H2 46–70 px; Säulentitel 28–40 px; Body 17–19 px; Liste 15–17 px.",
+          "line_height": "H2 1.05–1.15; Body 1.5–1.65.",
+          "letter_spacing": "Headlines leicht negativ, Listen neutral.",
+          "weight_strategy": "H2 600–700; Säulentitel 550–650; Body 400.",
+          "generator_rules": [
+            "Alle Säulentitel grammatisch parallel formulieren.",
+            "Unterleistungen als Nomen oder Tätigkeiten einheitlich benennen.",
+            "Lange deutsche Komposita responsive prüfen."
+          ]
+        },
+        "components": [
+          {
+            "type": "service_overview",
+            "name": "Integrated Three-Pillar Service Overview",
+            "structure": "Abschnittseinleitung, drei Hauptsäulen, je Bild, Titel, Kurztext, Leistungsstichpunkte und Vertiefungslink.",
+            "visual_behavior": "Gleichwertige Säulen mit klarer Differenzierung durch Bildmotiv, Begriffe und Unterlisten.",
+            "content_behavior": "Vermittelt ein breites Angebot als zusammenhängenden Beratungsprozess statt als lose Einzelleistungen.",
+            "best_for": [
+              "Ingenieurbüros mit drei Kernbereichen",
+              "Energieberatung plus Bauplanung",
+              "ganzheitliche Immobilienberatung"
+            ],
+            "avoid_for": [
+              "Einzeldienstleister mit nur einem Angebot",
+              "mehr als fünf gleichwertige Hauptbereiche"
+            ],
+            "strengths": [
+              "Sehr hohe Orientierung",
+              "Starke Cross-Selling-Basis",
+              "Gute Skalierbarkeit auf Unterseiten"
+            ],
+            "risks": [
+              "Zu viele Unterpunkte erzeugen Informationsüberlastung",
+              "Unklare Abgrenzung kann Säulen redundant wirken lassen"
+            ],
+            "reuse_rules": [
+              "Drei Hauptsäulen bevorzugen; vier nur bei klarer fachlicher Trennung.",
+              "Je Säule maximal fünf sichtbare Unterleistungen.",
+              "Nutzenzeile vor Fachliste platzieren."
+            ]
+          }
+        ],
+        "animations": [
+          {
+            "type": "staggered_service_reveal",
+            "trigger": "Säulen betreten den Viewport",
+            "behavior": "Bild, Titel und Leistungsstichpunkte erscheinen mit kurzer Staffelung.",
+            "speed": "450–750 ms",
+            "intensity": "niedrig",
+            "purpose": "Drei Säulen unterscheidbar machen, ohne die Übersicht zu verlangsamen.",
+            "best_for": [
+              "Desktop-Serviceübersichten"
+            ],
+            "avoid_when": [
+              "Reduced Motion aktiv",
+              "bereits mehrere Scrollanimationen im selben Abschnitt"
+            ]
+          }
+        ],
+        "generator_rules": [
+          "Wähle bei mindestens drei klaren Hauptleistungsfamilien.",
+          "Erzeuge zuerst eine Taxonomie aus Kundenproblemen und Projektphasen.",
+          "Ordne Unterleistungen exakt einer Primärsäule zu.",
+          "Verlinke jede Säule auf eine vertiefende Ebene."
+        ],
+        "design_rules": [
+          "Leistungsbereiche müssen trennscharf sein.",
+          "Pro Säule gleiche Informationstiefe.",
+          "Bilder müssen reale Tätigkeitsbereiche repräsentieren."
+        ],
+        "anti_patterns": [
+          "neun gleichwertige Servicekacheln",
+          "reine Icon-Sammlung",
+          "ungleiche Textmengen",
+          "Marketingtitel ohne Fachbezug"
+        ],
+        "ux": {
+          "strengths": [
+            "Sehr hohe Orientierung",
+            "Starke Cross-Selling-Basis",
+            "Gute Skalierbarkeit auf Unterseiten"
+          ],
+          "patterns": [
+            "Integrated Three-Pillar Service Overview",
+            "Integrated Engineering Service Architecture"
+          ],
+          "generator_learning": [
+            "Wähle bei mindestens drei klaren Hauptleistungsfamilien.",
+            "Erzeuge zuerst eine Taxonomie aus Kundenproblemen und Projektphasen.",
+            "Ordne Unterleistungen exakt einer Primärsäule zu."
+          ]
+        },
+        "layout_system": {
+          "grid": "Drei Spalten oder gestaffelte 4/4/4-Struktur; auf Tablet 1+2, mobil einspaltig.",
+          "max_width": "1280–1480 px",
+          "spacing": "96–160 px außen; 28–48 px innerhalb der Säulen.",
+          "corner_radius": "0–16 px",
+          "density": "Mittel; je Säule ein Bild, eine Headline, ein Lead und drei bis fünf Punkte."
+        },
+        "information_hierarchy": [
+          "Gesamtversprechen",
+          "Hauptbereiche",
+          "Nutzen",
+          "Einzelleistungen",
+          "Vertiefung"
+        ],
+        "conversion_rules": [
+          "Säulen in passende Detailseiten verlinken.",
+          "Nur ein übergeordneter CTA nach der Gruppe.",
+          "Primäre Anfrage nicht in jeder Säule wiederholen."
+        ],
+        "source_file": "C:\\Users\\jheim\\Documents\\Websites\\website-automation-bot\\website-automation-bot\\app\\knowledge\\imports\\pending\\three-pillar-engineering-services.json"
+      },
+      "references": {
+        "id": "reference-C-0002",
+        "slug": "modern-engineering-consulting",
+        "role": "references",
+        "category": "reference_archetype",
+        "name": "Modern Engineering Consulting",
+        "industries": [
+          "Energieberatung",
+          "Ingenieurbüros",
+          "Baumanagement",
+          "Nachhaltigkeitsberatung",
+          "Sachverständige",
+          "Immobilienberatung"
+        ],
+        "effects": [
+          "ganzheitlich",
+          "persönlich",
+          "fachlich tief",
+          "förderfähig",
+          "conversion-stark",
+          "vertrauenswürdig"
+        ],
+        "archetype": "Modern Engineering Consulting",
+        "genome": {
+          "minimal": 70,
+          "editorial": 80,
+          "conversion_focus": 94,
+          "typography_dominance": 68,
+          "trust_density": 100,
+          "image_dominance": 64,
+          "whitespace": 74
+        },
+        "quality": 99,
+        "modernity": 92,
+        "premium": 91,
+        "innovation": 86,
+        "trust": 100,
+        "palette": {
+          "primary": "#173F52",
+          "secondary": "#E3EBE8",
+          "accent": "#49A469",
+          "background": "#F5F7F6",
+          "surface": "#FFFFFF",
+          "text": "#19343F",
+          "border": "#CFD9D5",
+          "muted": "#6B7A80",
+          "hover": "#378954",
+          "gradient": [
+            "linear-gradient(90deg, #D95745 0%, #E2A743 48%, #49A469 100%)"
+          ]
+        },
+        "typography": {
+          "headline_style": "Moderne technische Sans, klar und zugänglich.",
+          "body_style": "Lesefreundliche Langform mit Listen und Zwischenüberschriften.",
+          "font_categories": [
+            "Humanistische Sans",
+            "Neo-Grotesk"
+          ],
+          "hierarchy": "Hero 58–92 px; H2 42–68 px; H3 26–40 px; Body 17–19 px.",
+          "line_height": "Headlines 1.02–1.16; Body 1.55–1.72.",
+          "letter_spacing": "Headlines leicht negativ.",
+          "weight_strategy": "400–700, maximal drei Hauptgewichte.",
+          "generator_rules": [
+            "Fachbegriffe kontrolliert umbrechen.",
+            "H-Struktur konsequent halten.",
+            "Inhalte zuerst nach Nutzerfragen, dann nach SEO ordnen."
+          ]
+        },
+        "components": [
+          {
+            "type": "reference_system",
+            "name": "Integrated Engineering Advisory Website System",
+            "structure": "Hero → Leistungsübersicht → vertiefte Leistungsfamilien → Zertifikate → Dual CTA → Expertenprofil → Testimonials → Prozess → Referenzen → Kontakt.",
+            "visual_behavior": "Ruhige technische Markenwelt; Abwechslung durch Informationsdichte, Bilder und Proof-Typen.",
+            "content_behavior": "Führt Nutzer von Problemverständnis über Kompetenz und Nachweise zur passenden Kontaktoption.",
+            "best_for": [
+              "Energieberater mit breitem Portfolio",
+              "Ingenieurbüros",
+              "Sachverständige mit Förderkompetenz"
+            ],
+            "avoid_for": [
+              "kleine One-Service-Seiten ohne Proof oder Inhalte"
+            ],
+            "strengths": [
+              "Sehr vollständige Vertrauensarchitektur",
+              "Hohe fachliche und lokale Relevanz",
+              "Starke Conversion-Struktur"
+            ],
+            "risks": [
+              "Überlange Seiten",
+              "Pflegeaufwand für Förderinformationen",
+              "Doppelungen zwischen Unterseiten"
+            ],
+            "reuse_rules": [
+              "Archetyp adaptieren, nicht visuell kopieren.",
+              "Mindestens Leistungsarchitektur, Authority-System und Dual CTA kombinieren.",
+              "Unterseiten nach Content-Ontologie planen."
+            ]
+          }
+        ],
+        "animations": [
+          {
+            "type": "restrained_corporate_motion_system",
+            "trigger": "ausgewählte Sektionen",
+            "behavior": "Leichte Reveals für Leistungsblöcke, Proof-Gruppen und Prozess; keine dominante Scrollshow.",
+            "speed": "400–850 ms",
+            "intensity": "niedrig",
+            "purpose": "Informationshierarchie unterstützen.",
+            "best_for": [
+              "vertrauensgetriebene B2B-Websites"
+            ],
+            "avoid_when": [
+              "Animation ersetzt Struktur"
+            ]
+          }
+        ],
+        "generator_rules": [
+          "Wähle bei technical >= 75, trust_requirement >= 80 und mindestens drei Leistungsfamilien.",
+          "Kombiniere service-C-0003, content-C-0001, authority-C-0001, trust-C-0005 und cta-C-0002.",
+          "Generiere Unterseiten aus derselben Leistungsontologie.",
+          "Prüfe zeitkritische Fakten vor Veröffentlichung.",
+          "Setze bei Prototypen noindex, nofollow."
+        ],
+        "design_rules": [
+          "Keine optische Kopie der Quelle.",
+          "Alle Proof-Aussagen verifizieren.",
+          "Leistungsinhalte vollständig und hierarchisch modellieren.",
+          "noindex bei Entwurfsseiten setzen."
+        ],
+        "anti_patterns": [
+          "Standard-WordPress-Kachelwand",
+          "ungeordnete Leistungsliste",
+          "Logo-Friedhof",
+          "anonymer Unternehmensauftritt",
+          "veraltete Förderinformationen"
+        ],
+        "ux": {
+          "strengths": [
+            "Sehr vollständige Vertrauensarchitektur",
+            "Hohe fachliche und lokale Relevanz",
+            "Starke Conversion-Struktur"
+          ],
+          "patterns": [
+            "Integrated Engineering Advisory Website System",
+            "Modern Engineering Consulting"
+          ],
+          "generator_learning": [
+            "Wähle bei technical >= 75, trust_requirement >= 80 und mindestens drei Leistungsfamilien.",
+            "Kombiniere service-C-0003, content-C-0001, authority-C-0001, trust-C-0005 und cta-C-0002.",
+            "Generiere Unterseiten aus derselben Leistungsontologie."
+          ]
+        },
+        "layout_system": {
+          "grid": "Flexibles 12-Spalten-System; Hero, Drei-Säulen-Übersicht, Split-Leistungen, Proof-Cluster, Expertenprofil, Testimonials, Prozess, Kontakt.",
+          "max_width": "1280–1480 px",
+          "spacing": "Kapitel 110–190 px; interne Module 24–72 px.",
+          "corner_radius": "0–16 px",
+          "density": "Mittel; fachlich reich, aber hierarchisch kontrolliert."
+        },
+        "information_hierarchy": [
+          "Angebot",
+          "Leistungsbreite",
+          "institutionelle Autorität",
+          "persönliche Verantwortung",
+          "soziale Beweise",
+          "Prozess",
+          "praktische Beweise",
+          "Conversion"
+        ],
+        "conversion_rules": [
+          "Kontakt- und Terminpfad mehrfach, aber kontextbezogen anbieten.",
+          "Erst nach Trust und Leistungsbezug stark konvertieren.",
+          "Formular nach Projektart vorqualifizieren."
+        ],
+        "source_file": "C:\\Users\\jheim\\Documents\\Websites\\website-automation-bot\\website-automation-bot\\app\\knowledge\\imports\\pending\\modern-engineering-consulting.json"
+      },
+      "typography": {
+        "id": "typography-C-0002",
+        "slug": "technical-editorial-type-system",
+        "role": "typography",
+        "category": "typography_system",
+        "name": "Technical Editorial Type System",
+        "industries": [
+          "Ingenieurbüros",
+          "Geotechnik",
+          "Architektur",
+          "Infrastruktur",
+          "B2B-Technologie"
+        ],
+        "effects": [
+          "präzise",
+          "modern",
+          "technisch",
+          "menschlich",
+          "editorial"
+        ],
+        "archetype": "Technical Editorial",
+        "genome": {
+          "minimal": 82,
+          "editorial": 90,
+          "conversion_focus": 62,
+          "typography_dominance": 94,
+          "trust_density": 80,
+          "image_dominance": 36,
+          "whitespace": 82
+        },
+        "quality": 96,
+        "modernity": 94,
+        "premium": 89,
+        "innovation": 84,
+        "trust": 93,
+        "palette": {
+          "primary": "#23343B",
+          "secondary": "#E3E7E4",
+          "accent": "#E7A33E",
+          "background": "#F2EFE8",
+          "surface": "#FFFFFF",
+          "text": "#23343B",
+          "border": "#CED4D1",
+          "muted": "#6F7C80",
+          "hover": "#D48E2C",
+          "gradient": []
+        },
+        "typography": {
+          "headline_style": "Breite moderne Sans mit selbstbewusster Größe und klarer x-Höhe.",
+          "body_style": "Unaufgeregte Sans, 17–20 px, kurze Zeilen.",
+          "font_categories": [
+            "Humanistische Sans",
+            "Grotesk",
+            "Variable Sans"
+          ],
+          "hierarchy": "Hero 64–108 px; H2 44–72 px; H3 26–38 px; Body 17–20 px; Meta 13–15 px.",
+          "line_height": "Hero 0.95–1.05; H2 1.0–1.12; Body 1.5–1.7.",
+          "letter_spacing": "Headlines -0.02em bis -0.04em; Body neutral.",
+          "weight_strategy": "400 für Body, 550–650 für Headlines, 700 nur punktuell.",
+          "generator_rules": [
+            "Fachbegriffe semantisch umbrechen.",
+            "Textbreite auf 55–72 Zeichen begrenzen.",
+            "Überschriften nicht zentrieren, wenn sie länger als zwei Zeilen sind."
+          ]
+        },
+        "components": [
+          {
+            "type": "typography",
+            "name": "Engineering Editorial Hierarchy",
+            "structure": "Eyebrow, große Fachheadline, kurzer Lead, strukturierte Detailtexte.",
+            "visual_behavior": "Große Typografie erzeugt Haltung; kleine Ebenen liefern Präzision.",
+            "content_behavior": "Führt von verständlicher Kernaussage zu fachlicher Tiefe.",
+            "best_for": [
+              "Technische Dienstleistungen",
+              "Planungsbüros",
+              "Infrastrukturunternehmen"
+            ],
+            "avoid_for": [
+              "extrem verspielte Marken"
+            ],
+            "strengths": [
+              "Hohe Klarheit",
+              "Premiumwirkung ohne Luxusklischee"
+            ],
+            "risks": [
+              "Ungeplante Wortumbrüche bei langen Fachbegriffen"
+            ],
+            "reuse_rules": [
+              "Manuelle Soft-Hyphens oder responsive Alternativumbrüche vorsehen.",
+              "Maximal drei Schriftgewichte."
+            ]
+          }
+        ],
+        "animations": [],
+        "generator_rules": [
+          "Wähle bei technical >= 70 und premium >= 60.",
+          "Nutze fluid typography mit clamp().",
+          "Prüfe deutsche Komposita auf jeder Breakpoint-Stufe."
+        ],
+        "design_rules": [
+          "Keine dekorative Display-Schrift für Gutachten- oder Infrastrukturthemen.",
+          "Bindestriche und Zeilenumbrüche redaktionell kontrollieren."
+        ],
+        "anti_patterns": [
+          "zu dünne Headlines",
+          "lange zentrierte Fachtexte",
+          "fünf oder mehr Schriftgewichte",
+          "ungeplante Trennungen"
+        ],
+        "ux": {
+          "strengths": [
+            "Hohe Klarheit",
+            "Premiumwirkung ohne Luxusklischee"
+          ],
+          "patterns": [
+            "Engineering Editorial Hierarchy",
+            "Technical Editorial"
+          ],
+          "generator_learning": [
+            "Wähle bei technical >= 70 und premium >= 60.",
+            "Nutze fluid typography mit clamp()."
+          ]
+        },
+        "layout_system": {
+          "grid": "Headlines 6–10 Spalten; Lesetext 4–6 Spalten; Listen modular daneben.",
+          "max_width": "1280–1440 px",
+          "spacing": "80–160 px zwischen Typoebenen.",
+          "corner_radius": "nicht relevant",
+          "density": "Luftig mit lokal kompakten Fachlisten."
+        },
+        "information_hierarchy": [
+          "Thema",
+          "Nutzen",
+          "fachliche Erklärung",
+          "Details",
+          "Aktion"
+        ],
+        "conversion_rules": [
+          "Kernaussage vor Fachbegriffen formulieren.",
+          "Fachlisten erst nach verständlichem Lead zeigen."
+        ],
+        "source_file": "C:\\Users\\jheim\\Documents\\Websites\\website-automation-bot\\website-automation-bot\\app\\knowledge\\imports\\pending\\technical-editorial-type-system.json"
+      },
+      "palette": {
+        "id": "palette-C-0002",
+        "slug": "eco-energy-blue-orange-palette",
+        "role": "palette",
+        "category": "palette",
+        "name": "Eco Energy Blue-Orange Palette",
+        "industries": [
+          "Energieberatung",
+          "Gebäudetechnik",
+          "Nachhaltigkeit",
+          "Ingenieurwesen",
+          "Solar",
+          "Klimatechnik"
+        ],
+        "effects": [
+          "kompetent",
+          "frisch",
+          "technisch",
+          "freundlich",
+          "energetisch"
+        ],
+        "archetype": "Technical Eco Palette",
+        "genome": {
+          "technical": 82,
+          "corporate": 78,
+          "warm": 62,
+          "organic": 54,
+          "clarity": 94,
+          "conversion_focus": 74
+        },
+        "quality": 90,
+        "modernity": 83,
+        "premium": 70,
+        "innovation": 64,
+        "trust": 88,
+        "palette": {
+          "primary": "#143B5D",
+          "secondary": "#EAF5F5",
+          "accent": "#F5A623",
+          "background": "#F7FBFA",
+          "surface": "#FFFFFF",
+          "text": "#17364A",
+          "border": "#CFE2E3",
+          "muted": "#69818E",
+          "hover": "#0FA7C7",
+          "gradient": [
+            "linear-gradient(135deg, #0FA7C7 0%, #3BC7B1 100%)"
+          ]
+        },
+        "typography": {
+          "headline_style": "Petrolfarbene kräftige Headlines.",
+          "body_style": "Dunkler Blau-Grau-Ton auf Warmweiß.",
+          "font_categories": [
+            "Humanist Sans"
+          ],
+          "hierarchy": "Farbe unterstützt die Typohierarchie.",
+          "line_height": "Nicht farbabhängig.",
+          "letter_spacing": "Nicht farbabhängig.",
+          "weight_strategy": "Orange ersetzt keine Gewichtung.",
+          "generator_rules": [
+            "Orange nicht für lange Texte.",
+            "Fokuszustände zusätzlich mit Form oder Outline markieren."
+          ]
+        },
+        "components": [
+          {
+            "type": "color_system",
+            "name": "Eco Energy Palette",
+            "structure": "Petrolblau, Türkis/Blaugrün, Warmweiß und Orange.",
+            "visual_behavior": "Kühle Vertrauensfarben dominieren; Orange erscheint punktuell.",
+            "content_behavior": "Verbindet technische Kompetenz mit Energie und Zugänglichkeit.",
+            "best_for": [
+              "Energie",
+              "Gebäudetechnik",
+              "Nachhaltigkeit"
+            ],
+            "avoid_for": [
+              "Luxusmarken mit monochromem Anspruch"
+            ],
+            "strengths": [
+              "Branchenfit",
+              "Hohe Funktionsklarheit"
+            ],
+            "risks": [
+              "Kann bei zu viel Türkis generisch wirken"
+            ],
+            "reuse_rules": [
+              "Orange unter 10 % Flächenanteil.",
+              "Dunkles Petrol für Text.",
+              "Große Flächen eher helles Blaugrün als gesättigtes Cyan."
+            ]
+          }
+        ],
+        "animations": [
+          {
+            "type": "accent_color_transition",
+            "trigger": "Hover/Fokus",
+            "behavior": "Orange oder Türkis wechselt kurz in einen dunkleren Zustand.",
+            "speed": "120–220 ms",
+            "intensity": "niedrig",
+            "purpose": "Signalisiert Interaktion.",
+            "best_for": [
+              "Buttons",
+              "Links"
+            ],
+            "avoid_when": [
+              "Farbe als einziger Fokusindikator"
+            ]
+          }
+        ],
+        "generator_rules": [
+          "Setze primary auf dunkles Petrol, secondary auf helles Blaugrün und accent auf Orange.",
+          "Begrenze Orange auf 5–10 %.",
+          "Nutze Warmweiß statt reinem Weiß für große Hintergründe."
+        ],
+        "design_rules": [
+          "Farbrollen müssen über die Seite konsistent bleiben.",
+          "Orange ist Energiesignal, keine allgemeine Dekorationsfarbe."
+        ],
+        "anti_patterns": [
+          "Cyan auf Weiß mit zu wenig Kontrast",
+          "Orange Fließtexte",
+          "vier Akzentfarben",
+          "kaltes Reinweiß überall"
+        ],
+        "ux": {
+          "strengths": [
+            "Farbrollen sind intuitiv: Blau für Vertrauen, Grün für Nachhaltigkeit, Orange für Handlung.",
+            "Warmweiß reduziert technische Kälte."
+          ],
+          "patterns": [
+            "Technical eco color roles",
+            "Warm energy accent",
+            "Blue-green trust field"
+          ],
+          "generator_learning": [
+            "Akzentfarbe funktional reservieren.",
+            "Illustrationen und UI-Komponenten auf gemeinsame Farbtöne abstimmen."
+          ]
+        },
+        "layout_system": {
+          "grid": "Nicht layoutgebunden.",
+          "max_width": "Nicht anwendbar.",
+          "spacing": "Orange Akzente benötigen großzügiges neutrales Umfeld.",
+          "corner_radius": "Nicht anwendbar.",
+          "density": "Farblich moderat."
+        },
+        "information_hierarchy": [
+          "Vertrauen",
+          "Nachhaltigkeit",
+          "Handlung",
+          "Sekundärinformation"
+        ],
+        "conversion_rules": [
+          "Primäre CTA kann Orange oder dunkles Petrol sein; nicht beide gleichgewichtig."
+        ],
+        "source_file": "C:\\Users\\jheim\\Documents\\Websites\\website-automation-bot\\website-automation-bot\\app\\knowledge\\imports\\pending\\eco-energy-blue-orange-palette.json"
+      },
+      "animation": {
+        "id": "motion-C-0002",
+        "slug": "scroll-text-color-reveal",
+        "role": "animation",
+        "category": "motion_pattern",
+        "name": "Scroll Text Color Reveal",
+        "industries": [
+          "Ingenieurbüros",
+          "Architektur",
+          "Technologie",
+          "Nachhaltigkeit",
+          "Premium-Dienstleister"
+        ],
+        "effects": [
+          "immersiv",
+          "editorial",
+          "fokussierend",
+          "hochwertig",
+          "progressiv"
+        ],
+        "archetype": "Immersive Editorial",
+        "genome": {
+          "minimal": 82,
+          "editorial": 96,
+          "conversion_focus": 54,
+          "typography_dominance": 100,
+          "trust_density": 48,
+          "image_dominance": 12,
+          "whitespace": 88
+        },
+        "quality": 98,
+        "modernity": 97,
+        "premium": 94,
+        "innovation": 98,
+        "trust": 78,
+        "palette": {
+          "primary": "#24323A",
+          "secondary": "#D9DFDC",
+          "accent": "#F2A541",
+          "background": "#F4F1E9",
+          "surface": "#FFFFFF",
+          "text": "#24323A",
+          "border": "#C9D0CC",
+          "muted": "#A8B0AD",
+          "hover": "#E4932F",
+          "gradient": [
+            "linear-gradient(90deg, #24323A 0%, #F2A541 100%)"
+          ]
+        },
+        "typography": {
+          "headline_style": "Große Grotesk oder humanistische Sans mit klaren Wortformen.",
+          "body_style": "Nicht als normaler Fließtext behandeln; Statement-Typografie.",
+          "font_categories": [
+            "Variable Sans",
+            "Neo-Grotesk",
+            "Humanistische Sans"
+          ],
+          "hierarchy": "Statement 42–86 px; Eyebrow 13–16 px.",
+          "line_height": "0.98–1.15",
+          "letter_spacing": "leicht negativ bis neutral",
+          "weight_strategy": "450–650; keine extrem dünnen Schnitte.",
+          "generator_rules": [
+            "Semantische Zeilenumbrüche setzen.",
+            "Pro Zeile drei bis sieben Wörter anstreben.",
+            "Mobile Schriftgröße und Scrollstrecke separat definieren."
+          ]
+        },
+        "components": [
+          {
+            "type": "scroll_typography",
+            "name": "Progressive Color-Fill Statement",
+            "structure": "Eyebrow optional, zwei bis fünf Textzeilen, scrollgebundene Farbmaske.",
+            "visual_behavior": "Text wechselt synchron zum Scrollen von einer matten Grundfarbe in die aktive Markenfarbe.",
+            "content_behavior": "Die Aussage wird in kontrolliertem Tempo gelesen und emotional aufgeladen.",
+            "best_for": [
+              "Manifest-Statements",
+              "Positionierung",
+              "Vision",
+              "Markenversprechen"
+            ],
+            "avoid_for": [
+              "Rechtstexte",
+              "FAQ-Antworten",
+              "lange Fließtexte"
+            ],
+            "strengths": [
+              "Sehr hohe Aufmerksamkeit",
+              "Klares Lesetempo",
+              "Starker Wiedererkennungswert"
+            ],
+            "risks": [
+              "Kann bei zu langer Scrollstrecke träge wirken",
+              "Schlechte Lesbarkeit ohne Fallback"
+            ],
+            "reuse_rules": [
+              "Maximal ein bis zwei Vorkommen pro Seite.",
+              "Auf höchstens 35–55 Wörter begrenzen.",
+              "Aktive Farbe muss WCAG-konform kontrastieren."
+            ]
+          }
+        ],
+        "animations": [
+          {
+            "type": "scroll_progress_text_fill",
+            "trigger": "Element betritt 20–30 % des Viewports",
+            "behavior": "Eine Clip-Mask oder zeilenweise Spans legen die aktive Textfarbe proportional zum Scrollfortschritt über die Grundfarbe.",
+            "speed": "direkt an Scrollposition gekoppelt; leichte Glättung 80–180 ms",
+            "intensity": "mittel",
+            "purpose": "Leserhythmus steuern und Kernaussage emotionalisieren.",
+            "best_for": [
+              "Vision-Statements",
+              "Editoriale Übergänge"
+            ],
+            "avoid_when": [
+              "Reduced Motion aktiv",
+              "Text länger als 55 Wörter",
+              "mehrere parallele Scroll-Effekte"
+            ]
+          }
+        ],
+        "generator_rules": [
+          "Wähle das Muster bei innovation >= 80 und typography_dominance >= 85.",
+          "Begrenze den Inhalt auf 35–55 Wörter.",
+          "Implementiere bevorzugt mit CSS Custom Property plus IntersectionObserver/ScrollTimeline oder GSAP ScrollTrigger.",
+          "Bei prefers-reduced-motion sofort Endzustand anzeigen."
+        ],
+        "design_rules": [
+          "Animation muss ohne JavaScript als vollständig lesbarer Text bestehen bleiben.",
+          "Scrollstrecke an Textlänge koppeln, nicht pauschal an Viewport-Höhen.",
+          "Keine zufällige Wortfärbung; immer Leserichtung beibehalten."
+        ],
+        "anti_patterns": [
+          "Buchstabenweise hektisches Flackern",
+          "zu geringe Grundkontraste",
+          "mehrere Reveal-Texte direkt hintereinander",
+          "Animation ohne Reduced-Motion-Fallback"
+        ],
+        "ux": {
+          "strengths": [
+            "Sehr hohe Aufmerksamkeit",
+            "Klares Lesetempo",
+            "Starker Wiedererkennungswert"
+          ],
+          "patterns": [
+            "Progressive Color-Fill Statement",
+            "Immersive Editorial"
+          ],
+          "generator_learning": [
+            "Wähle das Muster bei innovation >= 80 und typography_dominance >= 85.",
+            "Begrenze den Inhalt auf 35–55 Wörter."
+          ]
+        },
+        "layout_system": {
+          "grid": "Textblock über 7–10 von 12 Spalten; großzügige seitliche Sicherheitszone.",
+          "max_width": "1100–1360 px",
+          "spacing": "120–220 px vertikal; 32–64 px innerhalb des Textblocks.",
+          "corner_radius": "nicht relevant",
+          "density": "Sehr luftig; ein dominanter Textgedanke pro Abschnitt."
+        },
+        "information_hierarchy": [
+          "Kontext",
+          "Kernaussage",
+          "progressive Betonung",
+          "Abschlussgedanke"
+        ],
+        "conversion_rules": [
+          "Nicht direkt als CTA verwenden.",
+          "Nach Abschluss des Reveals einen ruhigen CTA oder Inhaltswechsel platzieren."
+        ],
+        "source_file": "C:\\Users\\jheim\\Documents\\Websites\\website-automation-bot\\website-automation-bot\\app\\knowledge\\imports\\pending\\scroll-text-color-reveal.json"
+      },
+      "layout": {
+        "id": "layout-C-0004",
+        "slug": "floating-editorial-story-section",
+        "role": "layout",
+        "category": "layout_pattern",
+        "name": "Floating Editorial Story Section",
+        "industries": [
+          "Ingenieurwesen",
+          "Architektur",
+          "Beratung",
+          "Innovation",
+          "Nachhaltigkeit"
+        ],
+        "effects": [
+          "räumlich",
+          "ruhig",
+          "hochwertig",
+          "abwechslungsreich",
+          "editorial"
+        ],
+        "archetype": "Floating Editorial",
+        "genome": {
+          "minimal": 80,
+          "editorial": 95,
+          "conversion_focus": 54,
+          "typography_dominance": 82,
+          "trust_density": 58,
+          "image_dominance": 68,
+          "whitespace": 94
+        },
+        "quality": 97,
+        "modernity": 95,
+        "premium": 95,
+        "innovation": 90,
+        "trust": 86,
+        "palette": {
+          "primary": "#24343B",
+          "secondary": "#DCE3DF",
+          "accent": "#DEA044",
+          "background": "#F3F0E9",
+          "surface": "#FFFFFF",
+          "text": "#24343B",
+          "border": "#C8D0CC",
+          "muted": "#738085",
+          "hover": "#CE8C32",
+          "gradient": []
+        },
+        "typography": {
+          "headline_style": "Große linksbündige Sans mit kurzen Zeilen.",
+          "body_style": "Ruhiger Fließtext mit 55–70 Zeichen.",
+          "font_categories": [
+            "Humanistische Sans",
+            "Neo-Grotesk"
+          ],
+          "hierarchy": "H2 48–76 px; Lead 20–26 px; Body 17–19 px.",
+          "line_height": "H2 1.0–1.1; Body 1.55–1.7.",
+          "letter_spacing": "Headline leicht negativ.",
+          "weight_strategy": "Headline 550–650; Body 400.",
+          "generator_rules": [
+            "Textblock nicht über sechs Spalten ziehen.",
+            "Bild und Text nicht exakt mittig ausrichten."
+          ]
+        },
+        "components": [
+          {
+            "type": "editorial_section",
+            "name": "Offset Image–Text Story",
+            "structure": "Kleine Abschnittsmarke, großer Textblock, versetztes Bild, optionaler Link.",
+            "visual_behavior": "Text und Bild balancieren sich über Weißraum und vertikalen Offset.",
+            "content_behavior": "Erzeugt einen erzählerischen Zwischenraum zwischen Faktenblöcken.",
+            "best_for": [
+              "Unternehmensgeschichte",
+              "Haltung",
+              "Teamkultur",
+              "Projektkontext"
+            ],
+            "avoid_for": [
+              "Preislisten",
+              "datenreiche Tabellen"
+            ],
+            "strengths": [
+              "Hohe visuelle Abwechslung",
+              "Premiumwirkung"
+            ],
+            "risks": [
+              "Kann bei schwachem Raster beliebig wirken"
+            ],
+            "reuse_rules": [
+              "Versatzrichtung pro Folgesektion wechseln.",
+              "Mindestens 96 px vertikalen Atemraum erhalten."
+            ]
+          }
+        ],
+        "animations": [
+          {
+            "type": "subtle_offset_reveal",
+            "trigger": "Sektion erreicht 70 % Viewport",
+            "behavior": "Bild und Text bewegen sich aus unterschiedlichen Richtungen um 16–32 px ein.",
+            "speed": "500–900 ms",
+            "intensity": "niedrig",
+            "purpose": "Räumliche Trennung betonen.",
+            "best_for": [
+              "Editoriale Storyabschnitte"
+            ],
+            "avoid_when": [
+              "Scroll-Text-Reveal im selben Viewport"
+            ]
+          }
+        ],
+        "generator_rules": [
+          "Wähle bei whitespace >= 75 und editorial >= 70.",
+          "Nutze Grid für Grundlayout und nur kleine Transforms für Versatz.",
+          "Mobil in klare Einspaltenreihenfolge überführen."
+        ],
+        "design_rules": [
+          "Versatz immer am Raster ausrichten.",
+          "Nicht mehr als drei schwebende Elemente pro Sektion."
+        ],
+        "anti_patterns": [
+          "zufällige absolute Positionierung",
+          "zu kleine Bilder in riesigem Weißraum",
+          "identische Versätze in jeder Sektion"
+        ],
+        "ux": {
+          "strengths": [
+            "Hohe visuelle Abwechslung",
+            "Premiumwirkung"
+          ],
+          "patterns": [
+            "Offset Image–Text Story",
+            "Floating Editorial"
+          ],
+          "generator_learning": [
+            "Wähle bei whitespace >= 75 und editorial >= 70.",
+            "Nutze Grid für Grundlayout und nur kleine Transforms für Versatz."
+          ]
+        },
+        "layout_system": {
+          "grid": "Zwölf Spalten; Text 4–6, Bild 5–8 Spalten; vertikaler Versatz 80–220 px.",
+          "max_width": "1320–1520 px",
+          "spacing": "140–260 px zwischen Storyblöcken.",
+          "corner_radius": "0–20 px je nach Bildsprache",
+          "density": "Sehr luftig, mit wenigen großen Elementen."
+        },
+        "information_hierarchy": [
+          "Thema",
+          "visueller Kontext",
+          "Erklärung",
+          "Vertiefung"
+        ],
+        "conversion_rules": [
+          "Nur sekundäre Links einsetzen.",
+          "Primäre Conversion erst nach mehreren Storyabschnitten anbieten."
+        ],
+        "source_file": "C:\\Users\\jheim\\Documents\\Websites\\website-automation-bot\\website-automation-bot\\app\\knowledge\\imports\\pending\\floating-editorial-story-section.json"
+      },
+      "trust": {
+        "id": "authority-C-0001",
+        "slug": "qualification-proof-wall",
+        "role": "trust",
+        "category": "authority_system",
+        "name": "Qualification Proof Wall",
+        "industries": [
+          "Ingenieurbüros",
+          "Energieberatung",
+          "Sachverständige",
+          "Nachhaltigkeit",
+          "Bauwesen"
+        ],
+        "effects": [
+          "autorität",
+          "vollständig",
+          "professionell",
+          "risikoreduzierend",
+          "fachübergreifend"
+        ],
+        "archetype": "Layered Authority System",
+        "genome": {
+          "minimal": 68,
+          "editorial": 72,
+          "conversion_focus": 84,
+          "typography_dominance": 52,
+          "trust_density": 100,
+          "image_dominance": 58,
+          "whitespace": 72
+        },
+        "quality": 99,
+        "modernity": 87,
+        "premium": 91,
+        "innovation": 81,
+        "trust": 100,
+        "palette": {
+          "primary": "#173F52",
+          "secondary": "#E3EBE8",
+          "accent": "#49A469",
+          "background": "#F5F7F6",
+          "surface": "#FFFFFF",
+          "text": "#19343F",
+          "border": "#D0DAD6",
+          "muted": "#6B7A80",
+          "hover": "#378954",
+          "gradient": []
+        },
+        "typography": {
+          "headline_style": "Sachlich, souverän.",
+          "body_style": "Kurze Belegerklärungen und präzise Labels.",
+          "font_categories": [
+            "Grotesk",
+            "Humanistische Sans"
+          ],
+          "hierarchy": "H2 42–64 px; Proof-Titel 18–24 px; Label 13–16 px.",
+          "line_height": "H2 1.05–1.15; Body 1.45–1.65.",
+          "letter_spacing": "neutral.",
+          "weight_strategy": "Headline 650; Proof-Titel 600; Label 500.",
+          "generator_rules": [
+            "Proof-Typen explizit benennen.",
+            "Offizielle Titel unverändert übernehmen.",
+            "Doppelungen zwischen Bereichen vermeiden."
+          ]
+        },
+        "components": [
+          {
+            "type": "authority_system",
+            "name": "Multi-Layer Qualification Proof System",
+            "structure": "Autoritätsheadline, institutionelle Logos, persönliche Credentials, Erfahrungsbelege und projektbezogene Nachweise.",
+            "visual_behavior": "Unterschiedliche Proof-Typen bleiben gestalterisch verwandt, aber semantisch getrennt.",
+            "content_behavior": "Beantwortet, warum Anbieter fachlich, regulatorisch und praktisch geeignet ist.",
+            "best_for": [
+              "hochpreisige technische Beratung",
+              "förderfähige Leistungen",
+              "Sachverständige"
+            ],
+            "avoid_for": [
+              "Unternehmen ohne belastbare Nachweise"
+            ],
+            "strengths": [
+              "Maximale Risikoreduktion",
+              "Starke Differenzierung"
+            ],
+            "risks": [
+              "Informationsüberladung",
+              "Doppelungen",
+              "veraltete Nachweise"
+            ],
+            "reuse_rules": [
+              "Proof-Typen gruppieren.",
+              "Auf jeder Seite nur kontextrelevanten Ausschnitt zeigen.",
+              "Zentrale Authority-Datenquelle pflegen."
+            ]
+          }
+        ],
+        "animations": [
+          {
+            "type": "grouped_proof_reveal",
+            "trigger": "Proof-Gruppe betritt Viewport",
+            "behavior": "Gruppen erscheinen nacheinander; einzelne Logos oder Titel bleiben statisch.",
+            "speed": "450–800 ms",
+            "intensity": "sehr niedrig",
+            "purpose": "Proof-Typen verständlich gliedern.",
+            "best_for": [
+              "umfangreiche Authority-Systeme"
+            ],
+            "avoid_when": [
+              "viele Logos bereits animiert sind"
+            ]
+          }
+        ],
+        "generator_rules": [
+          "Wähle bei mehr als zwei Proof-Arten.",
+          "Erzeuge Authority-Graph: proof → issuer → owner → service relevance → validity.",
+          "Zeige je Seite nur die wichtigsten Knoten.",
+          "Verknüpfe mit trust-C-0004 und trust-C-0005."
+        ],
+        "design_rules": [
+          "Zentrale Quelle für Nachweise.",
+          "Gültigkeiten überwachen.",
+          "Keine institutionellen Logos als Referenzkunden ausgeben."
+        ],
+        "anti_patterns": [
+          "Proof-Duplikate auf jeder Seite",
+          "ungeklärte Zertifikatsarten",
+          "veraltete Titel",
+          "Logo-Wand ohne Bedeutung"
+        ],
+        "ux": {
+          "strengths": [
+            "Maximale Risikoreduktion",
+            "Starke Differenzierung"
+          ],
+          "patterns": [
+            "Multi-Layer Qualification Proof System",
+            "Layered Authority System"
+          ],
+          "generator_learning": [
+            "Wähle bei mehr als zwei Proof-Arten.",
+            "Erzeuge Authority-Graph: proof → issuer → owner → service relevance → validity.",
+            "Zeige je Seite nur die wichtigsten Knoten."
+          ]
+        },
+        "layout_system": {
+          "grid": "Modulare Proof-Gruppen: Institutionen, Person, Erfahrung, Projekte; 2–4 Spalten.",
+          "max_width": "1180–1420 px",
+          "spacing": "80–150 px außen; 24–48 px innerhalb.",
+          "corner_radius": "0–14 px",
+          "density": "Mittel bis hoch, aber klar gruppiert."
+        },
+        "information_hierarchy": [
+          "Behauptung",
+          "institutioneller Beleg",
+          "persönlicher Beleg",
+          "praktischer Beleg",
+          "Handlung"
+        ],
+        "conversion_rules": [
+          "Authority-System vor hochpreisiger Anfrage oder komplexer Leistung einsetzen.",
+          "Je Conversion-Kontext nur relevante Nachweise priorisieren."
+        ],
+        "source_file": "C:\\Users\\jheim\\Documents\\Websites\\website-automation-bot\\website-automation-bot\\app\\knowledge\\imports\\pending\\qualification-proof-wall.json"
+      },
+      "process": {
+        "id": "process-C-0002",
+        "slug": "compact-three-step-consultation-process",
+        "role": "process",
+        "category": "process_pattern",
+        "name": "Compact Three-Step Consultation Process",
+        "industries": [
+          "Energieberatung",
+          "Ingenieurbüros",
+          "Beratung",
+          "Sachverständige",
+          "Planung"
+        ],
+        "effects": [
+          "einfach",
+          "transparent",
+          "niedrigschwellig",
+          "strukturiert",
+          "sicher"
+        ],
+        "archetype": "Three-Step Consultation",
+        "genome": {
+          "minimal": 88,
+          "editorial": 62,
+          "conversion_focus": 100,
+          "typography_dominance": 58,
+          "trust_density": 94,
+          "image_dominance": 10,
+          "whitespace": 82
+        },
+        "quality": 97,
+        "modernity": 88,
+        "premium": 83,
+        "innovation": 73,
+        "trust": 96,
+        "palette": {
+          "primary": "#173F52",
+          "secondary": "#E4ECE9",
+          "accent": "#4AA66A",
+          "background": "#F6F8F7",
+          "surface": "#FFFFFF",
+          "text": "#19343F",
+          "border": "#D2DCD8",
+          "muted": "#6B7A80",
+          "hover": "#388A57",
+          "gradient": []
+        },
+        "typography": {
+          "headline_style": "Zahlen groß, Schrittüberschriften 24–34 px.",
+          "body_style": "Kurze, direkte Sätze.",
+          "font_categories": [
+            "Grotesk",
+            "Humanistische Sans"
+          ],
+          "hierarchy": "Zahl 56–96 px; Titel 24–34 px; Body 16–18 px.",
+          "line_height": "Titel 1.1–1.2; Body 1.5–1.65.",
+          "letter_spacing": "Zahlen leicht negativ.",
+          "weight_strategy": "Zahl 650; Titel 600; Body 400.",
+          "generator_rules": [
+            "Jeden Titel mit Handlung oder Ergebnis formulieren.",
+            "Text pro Schritt unter 70 Wörter.",
+            "Kanaloptionen im ersten Schritt nennen."
+          ]
+        },
+        "components": [
+          {
+            "type": "process_steps",
+            "name": "Inquiry–Consultation–Delivery Process",
+            "structure": "1 Anfrage/Termin, 2 persönliches Gespräch, 3 Angebot und Umsetzung.",
+            "visual_behavior": "Klare nummerierte Folge ohne unnötige Dekoration.",
+            "content_behavior": "Reduziert Unsicherheit und zeigt, dass der Einstieg unverbindlich und strukturiert ist.",
+            "best_for": [
+              "Beratungsleistungen",
+              "Projektgeschäfte",
+              "lokale Experten"
+            ],
+            "avoid_for": [
+              "komplexe Software-Onboardings mit vielen Pflichtschritten"
+            ],
+            "strengths": [
+              "Extrem verständlich",
+              "Hohe Conversion-Nähe"
+            ],
+            "risks": [
+              "Zu generisch ohne konkrete Details",
+              "Versprechen unpassender Reaktionszeiten"
+            ],
+            "reuse_rules": [
+              "Drei Schritte bevorzugen.",
+              "Jeder Schritt mit konkreter Kundenhandlung beginnen.",
+              "Keine internen Prozessdetails zeigen."
+            ]
+          }
+        ],
+        "animations": [
+          {
+            "type": "sequential_step_reveal",
+            "trigger": "Prozess betritt Viewport",
+            "behavior": "Schritte erscheinen 1–3 mit kurzer Staffelung; mobile Darstellung bleibt sofort verständlich.",
+            "speed": "400–700 ms",
+            "intensity": "niedrig",
+            "purpose": "Reihenfolge verdeutlichen.",
+            "best_for": [
+              "kurze Prozessabschnitte"
+            ],
+            "avoid_when": [
+              "Reduced Motion aktiv"
+            ]
+          }
+        ],
+        "generator_rules": [
+          "Wähle bei service_business = true und conversion_focus >= 70.",
+          "Extrahiere Kundenhandlung, Anbieterhandlung und Ergebnis pro Schritt.",
+          "Begrenze auf drei Schritte; vier nur bei regulatorischer Notwendigkeit.",
+          "Verknüpfe Endzustand mit passendem CTA."
+        ],
+        "design_rules": [
+          "Kundenperspektive statt interner Abläufe.",
+          "Keine unrealistischen Zeitversprechen.",
+          "Schrittzahlen semantisch als Liste umsetzen."
+        ],
+        "anti_patterns": [
+          "achtstufige Timeline",
+          "generische Icons ohne Text",
+          "unklare letzte Phase",
+          "interne Fachprozesse"
+        ],
+        "ux": {
+          "strengths": [
+            "Extrem verständlich",
+            "Hohe Conversion-Nähe"
+          ],
+          "patterns": [
+            "Inquiry–Consultation–Delivery Process",
+            "Three-Step Consultation"
+          ],
+          "generator_learning": [
+            "Wähle bei service_business = true und conversion_focus >= 70.",
+            "Extrahiere Kundenhandlung, Anbieterhandlung und Ergebnis pro Schritt.",
+            "Begrenze auf drei Schritte; vier nur bei regulatorischer Notwendigkeit."
+          ]
+        },
+        "layout_system": {
+          "grid": "Drei gleichwertige Spalten oder vertikale Liste; Zahlen als visuelle Anker.",
+          "max_width": "1080–1320 px",
+          "spacing": "80–140 px außen; 24–40 px intern.",
+          "corner_radius": "0–12 px",
+          "density": "Kompakt, maximal 45–70 Wörter pro Schritt."
+        },
+        "information_hierarchy": [
+          "Einstieg",
+          "Klärung",
+          "Angebot/Umsetzung",
+          "Handlung"
+        ],
+        "conversion_rules": [
+          "Direkt nach dem Prozess Formular- und Terminoption anbieten.",
+          "Kostenlos oder unverbindlich nur nennen, wenn tatsächlich zutreffend."
+        ],
+        "source_file": "C:\\Users\\jheim\\Documents\\Websites\\website-automation-bot\\website-automation-bot\\app\\knowledge\\imports\\pending\\compact-three-step-consultation-process.json"
+      },
+      "faq": {
+        "id": "faq-C-0001",
+        "slug": "honest-faq-split-layout",
+        "role": "faq",
+        "category": "faq_pattern",
+        "name": "Honest FAQ Split Layout",
+        "industries": [
+          "Agenturen",
+          "Beratungen",
+          "SaaS",
+          "Handwerk",
+          "Gesundheitsdienstleister",
+          "B2B-Dienstleister"
+        ],
+        "effects": [
+          "transparent",
+          "nahbar",
+          "direkt",
+          "vertrauenswürdig"
+        ],
+        "archetype": "Editorial FAQ",
+        "genome": {
+          "transparency": 98,
+          "trust": 95,
+          "conversion_focus": 82,
+          "editorial": 70,
+          "interaction": 74,
+          "text_density": 68
+        },
+        "quality": 96,
+        "modernity": 87,
+        "premium": 76,
+        "innovation": 62,
+        "trust": 95,
+        "palette": {
+          "primary": "#111111",
+          "secondary": "#F7F7F2",
+          "accent": "#D9FF43",
+          "background": "#F7F7F2",
+          "surface": "#F7F7F2",
+          "text": "#111111",
+          "border": "#CFCFC7",
+          "muted": "#6E6E67",
+          "hover": "#D9FF43",
+          "gradient": []
+        },
+        "typography": {
+          "headline_style": "Große, zweizeilige Abschnittsheadline.",
+          "body_style": "Accordion-Fragen mittelgroß, Antworten kompakt.",
+          "font_categories": [
+            "Neo-Grotesk"
+          ],
+          "hierarchy": "Section 42–68 px; Frage 18–24 px; Antwort 16–18 px; Hilfetext 16–19 px.",
+          "line_height": "Fragen 1.3; Antworten 1.55.",
+          "letter_spacing": "Neutral.",
+          "weight_strategy": "Section 650; Frage 550–650; Antwort 400.",
+          "generator_rules": [
+            "Fragen aus Kundensicht formulieren.",
+            "Antworten mit konkreter Zahl oder Entscheidung beginnen, wenn möglich."
+          ]
+        },
+        "components": [
+          {
+            "type": "faq",
+            "name": "Honest FAQ Split Accordion",
+            "structure": "Linke Introspalte mit Hilfetext und CTA; rechte Spalte mit fünf priorisierten Fragen.",
+            "visual_behavior": "Fragen durch Linien getrennt; Plus dreht oder wechselt beim Öffnen.",
+            "content_behavior": "Beseitigt Kaufbarrieren und bietet bei Restfragen direkten Kontakt.",
+            "best_for": [
+              "Dienstleister",
+              "SaaS",
+              "Handwerk"
+            ],
+            "avoid_for": [
+              "Sehr einfache Angebote ohne Einwände"
+            ],
+            "strengths": [
+              "Hohe Transparenz",
+              "Geringere Kontaktbarriere"
+            ],
+            "risks": [
+              "Zu lange Antworten werden schwer scanbar"
+            ],
+            "reuse_rules": [
+              "Vier bis sieben echte Einwände priorisieren.",
+              "Preis und Dauer konkret beantworten.",
+              "Pro Frage nur einen Themenkomplex behandeln."
+            ]
+          }
+        ],
+        "animations": [
+          {
+            "type": "accordion_expand",
+            "trigger": "Klick/Tastatur",
+            "behavior": "Antwort öffnet sich vertikal; Plus dreht sich ruhig.",
+            "speed": "220–350 ms",
+            "intensity": "niedrig",
+            "purpose": "Zeigt Zusammenhang zwischen Frage und Antwort.",
+            "best_for": [
+              "FAQ"
+            ],
+            "avoid_when": [
+              "Bewegungsdauer verzögert Zugriff"
+            ]
+          }
+        ],
+        "generator_rules": [
+          "Nutze vier bis sieben Fragen.",
+          "Ordne nach Kaufrelevanz.",
+          "Setze Preis und Dauer in die ersten drei Fragen.",
+          "Platziere persönlichen CTA in der Introspalte."
+        ],
+        "design_rules": [
+          "FAQ beantwortet Einwände, nicht SEO-Füllfragen.",
+          "Persönliche Hilfe bleibt sichtbar."
+        ],
+        "anti_patterns": [
+          "Zwanzig SEO-Fragen",
+          "Vage Preisantworten",
+          "Mehrere Fragen in einem Accordion-Punkt",
+          "Winzige Klickflächen"
+        ],
+        "ux": {
+          "strengths": [
+            "Wichtige Einwände werden vor dem Formular geklärt.",
+            "Kontaktalternative verhindert Sackgassen.",
+            "Accordion reduziert visuelle Textmenge."
+          ],
+          "patterns": [
+            "Split FAQ with human fallback",
+            "Objection-prioritized accordion"
+          ],
+          "generator_learning": [
+            "FAQ aus echten Vertriebsfragen ableiten.",
+            "Nicht alle Fragen geschlossen lassen, wenn eine Antwort besonders wichtig ist."
+          ]
+        },
+        "layout_system": {
+          "grid": "Zweispaltig; Intro und CTA etwa 35–40 %, Accordion etwa 60–65 %. Mobil vertikal.",
+          "max_width": "1200–1360 px",
+          "spacing": "24–36 px je Accordion-Zeile; 112–160 px außen.",
+          "corner_radius": "0 px",
+          "density": "Mittel bis hoch auf der Accordion-Seite."
+        },
+        "information_hierarchy": [
+          "Preis",
+          "Dauer",
+          "Support",
+          "Eigenpflege",
+          "Nach Launch"
+        ],
+        "conversion_rules": [
+          "FAQ direkt vor Kontaktbereich platzieren.",
+          "Preisrahmen nennen, wenn vertrieblich möglich.",
+          "Offene Fragen mit persönlichem CTA auffangen."
+        ],
+        "source_file": "C:\\Users\\jheim\\Documents\\Websites\\website-automation-bot\\website-automation-bot\\app\\knowledge\\imports\\pending\\honest-faq-split-layout.json"
+      },
+      "contact": {
+        "id": "contact-C-0001",
+        "slug": "high-intent-project-contact-section",
+        "role": "contact",
+        "category": "contact_pattern",
+        "name": "High-Intent Project Contact Section",
+        "industries": [
+          "Agenturen",
+          "Beratungen",
+          "Architektur",
+          "Softwareentwicklung",
+          "Premium-Dienstleister"
+        ],
+        "effects": [
+          "einladend",
+          "direkt",
+          "qualifizierend",
+          "persönlich",
+          "reaktionsstark"
+        ],
+        "archetype": "Conversion Contact",
+        "genome": {
+          "conversion_focus": 100,
+          "trust": 92,
+          "human": 85,
+          "qualification": 96,
+          "editorial": 73,
+          "form_complexity": 68
+        },
+        "quality": 97,
+        "modernity": 91,
+        "premium": 87,
+        "innovation": 75,
+        "trust": 94,
+        "palette": {
+          "primary": "#111111",
+          "secondary": "#F2F2EC",
+          "accent": "#D9FF43",
+          "background": "#D9FF43",
+          "surface": "#F7F7F2",
+          "text": "#111111",
+          "border": "#919E2D",
+          "muted": "#4F561D",
+          "hover": "#C8F230",
+          "gradient": []
+        },
+        "typography": {
+          "headline_style": "Große einladende Abschlussheadline.",
+          "body_style": "Kurze Erwartungs- und Hilfetexte; klare Feldlabels.",
+          "font_categories": [
+            "Neo-Grotesk"
+          ],
+          "hierarchy": "Section 48–80 px; Untertitel 22–30 px; Body 16–19 px; Labels 13–16 px.",
+          "line_height": "Headline 1.0–1.1; Body 1.5.",
+          "letter_spacing": "Labels leicht positiv.",
+          "weight_strategy": "Headline 650; Untertitel 550; Body 400.",
+          "generator_rules": [
+            "Formularlabels immer sichtbar lassen.",
+            "Antwortzeit als separate Trust-Zeile setzen."
+          ]
+        },
+        "components": [
+          {
+            "type": "contact",
+            "name": "Qualified Project Inquiry",
+            "structure": "Headline, Erwartungsmanagement, direkte Kanäle, Terminlink und Formular mit Name, Unternehmen, E-Mail, Projekttyp, Budget und Briefing.",
+            "visual_behavior": "Große Introtypografie; Formularfelder reduziert und klar gruppiert.",
+            "content_behavior": "Qualifiziert Leads, bietet mehrere Kontaktwege und reduziert Unsicherheit über Reaktion.",
+            "best_for": [
+              "Projektbasierte B2B-Dienstleister"
+            ],
+            "avoid_for": [
+              "Niedrigpreisige Sofortkäufe"
+            ],
+            "strengths": [
+              "Hohe Lead-Qualität",
+              "Mehrere Kontaktpräferenzen"
+            ],
+            "risks": [
+              "Zu frühe Budgetfrage kann abschrecken"
+            ],
+            "reuse_rules": [
+              "Budget als Bandbreite statt Pflicht-Freitext.",
+              "Antwortzeit nur nennen, wenn operativ haltbar.",
+              "Kontaktwege hierarchisieren."
+            ]
+          }
+        ],
+        "animations": [
+          {
+            "type": "field_focus_feedback",
+            "trigger": "Fokus/Eingabe",
+            "behavior": "Unterstreichung oder Rahmen verstärkt sich; Auswahlchips wechseln klar den Zustand.",
+            "speed": "120–220 ms",
+            "intensity": "niedrig",
+            "purpose": "Erhöht Eingabesicherheit.",
+            "best_for": [
+              "Formulare"
+            ],
+            "avoid_when": [
+              "Kontrast im Fokus nicht ausreichend"
+            ]
+          }
+        ],
+        "generator_rules": [
+          "Nutze maximal sechs Kernfelder plus Datenschutz.",
+          "Biete mindestens zwei Kontaktwege.",
+          "Frage Budget als Bandbreite ab.",
+          "Zeige realistische Antwortzeit.",
+          "Setze Formular nach FAQ oder Proof."
+        ],
+        "design_rules": [
+          "Kontaktsektionen brauchen Erwartungsmanagement.",
+          "Qualifizierung darf nicht wie Hürde wirken."
+        ],
+        "anti_patterns": [
+          "Nur ein anonymes Formular",
+          "Unklare Antwortzeit",
+          "Budget als exaktes Pflichtfeld",
+          "Mehr als acht Pflichtfelder"
+        ],
+        "ux": {
+          "strengths": [
+            "Mehrere Kontaktwege berücksichtigen unterschiedliche Präferenzen.",
+            "Budgetchips beschleunigen Eingabe.",
+            "Antwortzeit reduziert Unsicherheit.",
+            "Kurzes Erwartungsmanagement senkt Sales-Widerstand."
+          ],
+          "patterns": [
+            "Multi-channel project contact",
+            "Budget qualification chips",
+            "Response-time trust cue",
+            "Calendar fallback"
+          ],
+          "generator_learning": [
+            "Formular nur Felder abfragen, die den nächsten Schritt verbessern.",
+            "Direkte E-Mail und Terminbuchung als Alternativen sichtbar lassen."
+          ]
+        },
+        "layout_system": {
+          "grid": "Zweispaltig; Intro und direkte Kontaktwege links, Formular rechts. Mobil erst Intro, dann Formular.",
+          "max_width": "1200–1360 px",
+          "spacing": "32–48 px innerhalb der Gruppen; 120–180 px außen.",
+          "corner_radius": "0–8 px",
+          "density": "Mittel bis hoch, aber gruppiert."
+        },
+        "information_hierarchy": [
+          "Einladung",
+          "Reaktionszeit",
+          "Kontaktoptionen",
+          "Projektart",
+          "Budget",
+          "Briefing"
+        ],
+        "conversion_rules": [
+          "Projektart und Budget als Auswahlfelder nutzen.",
+          "Datenschutz direkt vor Submit platzieren.",
+          "Submit-Text handlungsbezogen formulieren.",
+          "Pflichtfelder minimieren."
+        ],
+        "source_file": "C:\\Users\\jheim\\Documents\\Websites\\website-automation-bot\\website-automation-bot\\app\\knowledge\\imports\\pending\\high-intent-project-contact-section.json"
+      },
+      "footer": {
+        "id": "footer-C-0001",
+        "slug": "boutique-agency-footer",
+        "role": "footer",
+        "category": "footer_pattern",
+        "name": "Boutique Agency Footer",
+        "industries": [
+          "Agenturen",
+          "Studios",
+          "Beratungen",
+          "Architektur",
+          "Kreativschaffende"
+        ],
+        "effects": [
+          "persönlich",
+          "kompakt",
+          "markenstark",
+          "transparent"
+        ],
+        "archetype": "Boutique Footer",
+        "genome": {
+          "minimal": 88,
+          "human": 78,
+          "utility": 84,
+          "branding": 82,
+          "text_density": 52
+        },
+        "quality": 91,
+        "modernity": 88,
+        "premium": 84,
+        "innovation": 61,
+        "trust": 89,
+        "palette": {
+          "primary": "#111111",
+          "secondary": "#F7F7F2",
+          "accent": "#D9FF43",
+          "background": "#111111",
+          "surface": "#111111",
+          "text": "#F7F7F2",
+          "border": "#333333",
+          "muted": "#A7A79F",
+          "hover": "#D9FF43",
+          "gradient": []
+        },
+        "typography": {
+          "headline_style": "Kurzes Markenstatement in mittlerer Größe.",
+          "body_style": "Kleine Link- und Metatexte.",
+          "font_categories": [
+            "Neo-Grotesk"
+          ],
+          "hierarchy": "Statement 20–30 px; Spaltentitel 13–15 px; Links 15–18 px; Legal 12–14 px.",
+          "line_height": "Statement 1.3; Links 1.6.",
+          "letter_spacing": "Spaltentitel leicht positiv.",
+          "weight_strategy": "Statement 550; Titel 600; Links 400.",
+          "generator_rules": [
+            "Footer-Statement nicht wiederholen, sondern Positionierung verdichten.",
+            "Linkgruppen klar benennen."
+          ]
+        },
+        "components": [
+          {
+            "type": "footer",
+            "name": "Boutique Agency Footer",
+            "structure": "Markenbeschreibung, Established-Zeile, Kontaktlinks, Sociallinks, Copyright und Rechtliches.",
+            "visual_behavior": "Typografisch reduziert, klare Spalten, keine großen Karten.",
+            "content_behavior": "Schließt die Seite persönlich und funktional ab.",
+            "best_for": [
+              "Kleine Agenturen",
+              "Studios",
+              "Beratungen"
+            ],
+            "avoid_for": [
+              "Große Portale mit tiefer Sitemap"
+            ],
+            "strengths": [
+              "Markenabschluss",
+              "Schnelle Kontaktmöglichkeit"
+            ],
+            "risks": [
+              "Zu wenig Navigation für komplexe Websites"
+            ],
+            "reuse_rules": [
+              "Markenstatement auf einen Satz begrenzen.",
+              "Kontaktlinks direkt klickbar machen.",
+              "Rechtliches in separater unteren Zeile."
+            ]
+          }
+        ],
+        "animations": [
+          {
+            "type": "link_microshift",
+            "trigger": "Hover/Fokus",
+            "behavior": "Link oder Pfeil verschiebt sich minimal; Farbe wechselt zur Akzentfarbe.",
+            "speed": "120–200 ms",
+            "intensity": "niedrig",
+            "purpose": "Signalisiert Interaktivität.",
+            "best_for": [
+              "Minimal Footer"
+            ],
+            "avoid_when": [
+              "Zu viele unterschiedliche Hover-Stile"
+            ]
+          }
+        ],
+        "generator_rules": [
+          "Nutze zwei bis vier Linkgruppen.",
+          "Setze ein Markenstatement mit maximal 20 Wörtern.",
+          "Mache E-Mail und Telefon klickbar.",
+          "Ordne Legal-Links in eine separate Abschlusszeile."
+        ],
+        "design_rules": [
+          "Footer ist Markenabschluss und Utility-Bereich zugleich.",
+          "Wenige Linkgruppen brauchen klare Überschriften."
+        ],
+        "anti_patterns": [
+          "Vollständige Navigation ungefiltert wiederholen",
+          "Kontrastarme Legal-Links",
+          "Nicht klickbare Kontaktdaten"
+        ],
+        "ux": {
+          "strengths": [
+            "Kontakt bleibt bis zum Seitenende erreichbar.",
+            "Klare Trennung von Kontakt, Social und Legal.",
+            "Kurze Markenbeschreibung stärkt Erinnerung."
+          ],
+          "patterns": [
+            "Brand-statement footer",
+            "Compact utility columns"
+          ],
+          "generator_learning": [
+            "Footer-Tiefe an Website-Komplexität anpassen.",
+            "Telefon und E-Mail als direkte Links anbieten."
+          ]
+        },
+        "layout_system": {
+          "grid": "Drei- bis vier Spalten; Markenstatement breit, Kontakt und Social schmaler; Legal-Zeile über volle Breite.",
+          "max_width": "1200–1400 px",
+          "spacing": "56–96 px oben; 28–40 px zwischen Linkgruppen.",
+          "corner_radius": "0 px",
+          "density": "Kompakt."
+        },
+        "information_hierarchy": [
+          "Positionierung",
+          "Direktkontakt",
+          "Social Proof",
+          "Rechtliches"
+        ],
+        "conversion_rules": [
+          "Kontaktlink im Footer wiederholen.",
+          "Terminbuchung optional ergänzen."
+        ],
+        "source_file": "C:\\Users\\jheim\\Documents\\Websites\\website-automation-bot\\website-automation-bot\\app\\knowledge\\imports\\pending\\boutique-agency-footer.json"
+      },
+      "ux": {
+        "id": "conversion-C-0001",
+        "slug": "proof-led-conversion-hierarchy",
+        "role": "ux",
+        "category": "ux_pattern",
+        "name": "Proof-Led Conversion Hierarchy",
+        "industries": [
+          "Agenturen",
+          "Beratungen",
+          "B2B-Services",
+          "Software",
+          "Premium-Handwerk"
+        ],
+        "effects": [
+          "überzeugend",
+          "transparent",
+          "zielgerichtet",
+          "vertrauensstark"
+        ],
+        "archetype": "Proof-Led Conversion",
+        "genome": {
+          "conversion_focus": 100,
+          "proof_orientation": 100,
+          "storytelling": 78,
+          "trust": 98,
+          "sales_clarity": 94
+        },
+        "quality": 97,
+        "modernity": 91,
+        "premium": 85,
+        "innovation": 71,
+        "trust": 97,
+        "palette": {
+          "primary": "#111111",
+          "secondary": "#F2F2EC",
+          "accent": "#D9FF43",
+          "background": "#F7F7F2",
+          "surface": "#FFFFFF",
+          "text": "#111111",
+          "border": "#D8D8D0",
+          "muted": "#6E6E68",
+          "hover": "#C8F230",
+          "gradient": []
+        },
+        "typography": {
+          "headline_style": "Große Abschnittsfragen oder Aussagen.",
+          "body_style": "Knapp und beweisorientiert.",
+          "font_categories": [
+            "Neo-Grotesk"
+          ],
+          "hierarchy": "Konstant über die gesamte Journey.",
+          "line_height": "Lesefreundlich.",
+          "letter_spacing": "Neutral.",
+          "weight_strategy": "Headline stark, Belegtexte neutral.",
+          "generator_rules": [
+            "Abschnittsheadlines als Antwort auf Nutzerfragen formulieren.",
+            "Proof-Zahlen visuell scanbar machen."
+          ]
+        },
+        "components": [
+          {
+            "type": "ux_sequence",
+            "name": "Proof-Led Conversion Sequence",
+            "structure": "Hero, Sofort-Proof, Award, Portfolio, Leistungen, Prozess, Testimonials, FAQ, Kontakt.",
+            "visual_behavior": "Abwechselnde Proof- und Erklärungsmodule.",
+            "content_behavior": "Führt Nutzer von Aufmerksamkeit über Validierung und Verständnis zur Anfrage.",
+            "best_for": [
+              "Beratungsintensive B2B-Angebote"
+            ],
+            "avoid_for": [
+              "Einfache Transaktionsprodukte"
+            ],
+            "strengths": [
+              "Starke Vertrauenskurve",
+              "Einwände werden systematisch reduziert"
+            ],
+            "risks": [
+              "Zu lange Seite bei schwacher Copy"
+            ],
+            "reuse_rules": [
+              "Jede Sektion muss eine neue Frage beantworten.",
+              "Proof-Arten nicht redundant wiederholen.",
+              "Kontakt nach FAQ deutlich hervorheben."
+            ]
+          }
+        ],
+        "animations": [
+          {
+            "type": "progressive_reveal",
+            "trigger": "Scroll-Verlauf",
+            "behavior": "Jede Ebene erscheint konsistent und zurückhaltend.",
+            "speed": "350–650 ms",
+            "intensity": "niedrig",
+            "purpose": "Unterstützt die narrative Reihenfolge.",
+            "best_for": [
+              "Longform-Conversion-Seiten"
+            ],
+            "avoid_when": [
+              "Animationen ersetzen klare Hierarchie"
+            ]
+          }
+        ],
+        "generator_rules": [
+          "Ordne Sektionen nach Claim, Proof, Kompetenz, Prozess, Social Proof, Einwände, Kontakt.",
+          "Verwende mindestens drei unterschiedliche Proof-Arten.",
+          "Platziere FAQ unmittelbar vor Hauptkontakt.",
+          "Wiederhole primären CTA höchstens drei- bis viermal auf der Seite."
+        ],
+        "design_rules": [
+          "Proof muss zur Behauptung passen.",
+          "Kontakt folgt auf Einwandbehandlung.",
+          "Mehrere Proof-Arten sind stärker als Wiederholung derselben Zahl."
+        ],
+        "anti_patterns": [
+          "Unternehmensgeschichte direkt nach Hero",
+          "Kontaktformular vor Proof",
+          "Drei Logo-Bänder",
+          "FAQ nach Footer"
+        ],
+        "ux": {
+          "strengths": [
+            "Vertrauen wächst schrittweise.",
+            "Jede Sektion hat eine klare Rolle in der Entscheidung.",
+            "FAQ steht unmittelbar vor der Anfrage."
+          ],
+          "patterns": [
+            "Claim-proof-explain-proof-convert sequence",
+            "Layered trust architecture"
+          ],
+          "generator_learning": [
+            "Seitenreihenfolge nach Nutzerfragen statt interner Unternehmensstruktur bestimmen.",
+            "Proof früh und mehrfach, aber in unterschiedlichen Formen einsetzen."
+          ]
+        },
+        "layout_system": {
+          "grid": "Seitenweite Informationsarchitektur, nicht an ein einzelnes Raster gebunden.",
+          "max_width": "Abhängig von Sektion",
+          "spacing": "Proof früh kompakt; Erklärung und Cases großzügig; Kontakt kontrastreich.",
+          "corner_radius": "Nicht anwendbar",
+          "density": "Progressiv von kompakt zu erklärend und zurück zu kompakt."
+        },
+        "information_hierarchy": [
+          "Relevanz",
+          "Glaubwürdigkeit",
+          "Qualität",
+          "Kompetenz",
+          "Ablauf",
+          "Erfahrung",
+          "Einwände",
+          "Handlung"
+        ],
+        "conversion_rules": [
+          "CTA im Hero, nach Award und im Kontaktbereich wiederholen.",
+          "CTA-Texte an jeweilige Entscheidungsreife anpassen.",
+          "FAQ direkt vor Hauptformular setzen."
+        ],
+        "source_file": "C:\\Users\\jheim\\Documents\\Websites\\website-automation-bot\\website-automation-bot\\app\\knowledge\\imports\\pending\\proof-led-conversion-hierarchy.json"
+      },
+      "background": {
+        "id": "background-C-0001",
+        "slug": "atmospheric-earth-tech-canvas",
+        "role": "background",
+        "category": "background_system",
+        "name": "Atmospheric Earth-Tech Canvas",
+        "industries": [
+          "Geotechnik",
+          "Umwelttechnik",
+          "Architektur",
+          "Nachhaltigkeit",
+          "Ingenieurwesen"
+        ],
+        "effects": [
+          "erdverbunden",
+          "technisch",
+          "ruhig",
+          "hochwertig",
+          "atmosphärisch"
+        ],
+        "archetype": "Earth-Tech Minimal",
+        "genome": {
+          "minimal": 86,
+          "editorial": 74,
+          "conversion_focus": 45,
+          "typography_dominance": 62,
+          "trust_density": 72,
+          "image_dominance": 38,
+          "whitespace": 88
+        },
+        "quality": 95,
+        "modernity": 91,
+        "premium": 92,
+        "innovation": 83,
+        "trust": 90,
+        "palette": {
+          "primary": "#27383F",
+          "secondary": "#DCE2DE",
+          "accent": "#D9983D",
+          "background": "#F2EFE7",
+          "surface": "#F8F6F0",
+          "text": "#27383F",
+          "border": "#C8D0CB",
+          "muted": "#7B8789",
+          "hover": "#C7862E",
+          "gradient": [
+            "radial-gradient(circle at 20% 10%, rgba(255,255,255,.8), rgba(242,239,231,0) 55%)",
+            "linear-gradient(180deg, #F6F3EC 0%, #ECE9E1 100%)"
+          ]
+        },
+        "typography": {
+          "headline_style": "Dunkles Schieferblau auf warmer Fläche.",
+          "body_style": "Hoher, aber nicht harter Kontrast.",
+          "font_categories": [
+            "Sans-Serif"
+          ],
+          "hierarchy": "vom Typografiesystem abhängig",
+          "line_height": "nicht spezifisch",
+          "letter_spacing": "nicht spezifisch",
+          "weight_strategy": "nicht spezifisch",
+          "generator_rules": [
+            "Kontrast jeder Fläche separat prüfen.",
+            "Akzenttext nur kurz einsetzen."
+          ]
+        },
+        "components": [
+          {
+            "type": "background",
+            "name": "Mineral Gradient Surface",
+            "structure": "Off-White-Basis, radialer Schatten, optional feine Textur.",
+            "visual_behavior": "Erzeugt Tiefe ohne sichtbaren dekorativen Effekt.",
+            "content_behavior": "Trennt Kapitel und unterstützt technische Bildwelten.",
+            "best_for": [
+              "Engineering",
+              "Umwelt",
+              "Architektur"
+            ],
+            "avoid_for": [
+              "laute Entertainment-Marken"
+            ],
+            "strengths": [
+              "Hohe Ruhe",
+              "Eigenständige Materialanmutung"
+            ],
+            "risks": [
+              "Zu starke Gradients wirken künstlich"
+            ],
+            "reuse_rules": [
+              "Gradienten unter 8–12 % sichtbarer Helligkeitsdifferenz halten.",
+              "Texturen extrem subtil einsetzen."
+            ]
+          }
+        ],
+        "animations": [],
+        "generator_rules": [
+          "Wähle bei organic >= 45 und technical >= 60.",
+          "Begrenze Palette auf zwei Neutrale, eine Dunkelfarbe und einen Akzent.",
+          "Gradienten mit maximal 12 % Helligkeitsdifferenz."
+        ],
+        "design_rules": [
+          "Keine sichtbaren Regenbogen- oder Neonverläufe.",
+          "Dunkle Flächen sparsam als Kapitel einsetzen."
+        ],
+        "anti_patterns": [
+          "starke bunte Gradients",
+          "Textur mit sichtbarem Muster",
+          "zu viele Flächenfarben"
+        ],
+        "ux": {
+          "strengths": [
+            "Hohe Ruhe",
+            "Eigenständige Materialanmutung"
+          ],
+          "patterns": [
+            "Mineral Gradient Surface",
+            "Earth-Tech Minimal"
+          ],
+          "generator_learning": [
+            "Wähle bei organic >= 45 und technical >= 60.",
+            "Begrenze Palette auf zwei Neutrale, eine Dunkelfarbe und einen Akzent."
+          ]
+        },
+        "layout_system": {
+          "grid": "Hintergrundsystem unabhängig vom Raster.",
+          "max_width": "nicht relevant",
+          "spacing": "Farbwechsel frühestens nach 1–2 vollständigen Sektionen.",
+          "corner_radius": "nicht relevant",
+          "density": "Ruhige Grundflächen mit wenigen Akzentmomenten."
+        },
+        "information_hierarchy": [
+          "Grundatmosphäre",
+          "Inhalt",
+          "Akzent",
+          "Kapitelwechsel"
+        ],
+        "conversion_rules": [
+          "CTA-Akzent darf kräftiger als dekorative Akzente sein.",
+          "Nicht jede Schaltfläche orange färben."
+        ],
+        "source_file": "C:\\Users\\jheim\\Documents\\Websites\\website-automation-bot\\website-automation-bot\\app\\knowledge\\imports\\pending\\atmospheric-earth-tech-canvas.json"
+      },
+      "image": {
+        "id": "image-C-0001",
+        "slug": "documentary-field-photography-system",
+        "role": "image",
+        "category": "image_system",
+        "name": "Documentary Field Photography System",
+        "industries": [
+          "Geotechnik",
+          "Bauingenieurwesen",
+          "Infrastruktur",
+          "Umwelttechnik",
+          "Handwerk"
+        ],
+        "effects": [
+          "authentisch",
+          "kompetent",
+          "nahbar",
+          "dokumentarisch",
+          "substanziell"
+        ],
+        "archetype": "Documentary Engineering",
+        "genome": {
+          "minimal": 64,
+          "editorial": 84,
+          "conversion_focus": 70,
+          "typography_dominance": 42,
+          "trust_density": 98,
+          "image_dominance": 100,
+          "whitespace": 68
+        },
+        "quality": 97,
+        "modernity": 88,
+        "premium": 86,
+        "innovation": 74,
+        "trust": 98,
+        "palette": {
+          "primary": "#293940",
+          "secondary": "#D8DDD9",
+          "accent": "#D39A45",
+          "background": "#F1EEE7",
+          "surface": "#FFFFFF",
+          "text": "#293940",
+          "border": "#C7CECA",
+          "muted": "#748184",
+          "hover": "#C18734",
+          "gradient": []
+        },
+        "typography": {
+          "headline_style": "Typografie nicht ins Bild einbacken.",
+          "body_style": "Bildunterschriften kurz und präzise.",
+          "font_categories": [
+            "Sans-Serif"
+          ],
+          "hierarchy": "Caption 13–15 px.",
+          "line_height": "1.4–1.55",
+          "letter_spacing": "neutral",
+          "weight_strategy": "400–500",
+          "generator_rules": [
+            "Alt-Text beschreibt Tätigkeit und Kontext.",
+            "Textoverlays nur bei ruhiger Bildfläche."
+          ]
+        },
+        "components": [
+          {
+            "type": "image_system",
+            "name": "Real-Work Evidence Photography",
+            "structure": "Detailaufnahme, Prozessaufnahme, Kontextaufnahme und Teamaufnahme als Serie.",
+            "visual_behavior": "Dokumentarisch, leicht entsättigt, kontrastkontrolliert.",
+            "content_behavior": "Belegt Leistungen und macht abstrakte Fachthemen greifbar.",
+            "best_for": [
+              "Technische Dienstleistungen",
+              "Bau",
+              "Handwerk"
+            ],
+            "avoid_for": [
+              "Marken ohne eigenes Bildmaterial"
+            ],
+            "strengths": [
+              "Maximales Vertrauen",
+              "Hohe Branchenpassung"
+            ],
+            "risks": [
+              "Uneinheitliche Handyfotos können unprofessionell wirken"
+            ],
+            "reuse_rules": [
+              "Pro Seite mindestens drei Distanzebenen kombinieren.",
+              "Bildbeschreibungen und Alt-Texte fachlich konkret formulieren."
+            ]
+          }
+        ],
+        "animations": [
+          {
+            "type": "subtle_parallax_or_clip",
+            "trigger": "Scroll",
+            "behavior": "Maximal 4–8 % vertikale Verschiebung oder sanfter Clip-Reveal.",
+            "speed": "scrollgebunden",
+            "intensity": "sehr niedrig",
+            "purpose": "Bildtiefe erhöhen, ohne Dokumentarcharakter zu verlieren.",
+            "best_for": [
+              "große Kontextbilder"
+            ],
+            "avoid_when": [
+              "Reduced Motion aktiv",
+              "kleine Servicekarten"
+            ]
+          }
+        ],
+        "generator_rules": [
+          "Wähle bei trust_density >= 75 und realen Projekten.",
+          "Fordere Motive aus Detail, Prozess, Kontext und Team an.",
+          "Nutze object-position pro Breakpoint."
+        ],
+        "design_rules": [
+          "Keine KI-generierten Ersatzbilder, wenn Authentizität Kern des Vertrauens ist.",
+          "Horizonte und technische Geräte nicht unabsichtlich anschneiden."
+        ],
+        "anti_patterns": [
+          "generische Stock-Handshakes",
+          "übersättigte HDR-Optik",
+          "identische Brennweite in allen Bildern",
+          "Text über unruhigen Motiven"
+        ],
+        "ux": {
+          "strengths": [
+            "Maximales Vertrauen",
+            "Hohe Branchenpassung"
+          ],
+          "patterns": [
+            "Real-Work Evidence Photography",
+            "Documentary Engineering"
+          ],
+          "generator_learning": [
+            "Wähle bei trust_density >= 75 und realen Projekten.",
+            "Fordere Motive aus Detail, Prozess, Kontext und Team an."
+          ]
+        },
+        "layout_system": {
+          "grid": "Bilder als 4/3-, 3/2- und gelegentliche Panoramaformate.",
+          "max_width": "bis Full Bleed",
+          "spacing": "Abhängig vom umgebenden Layout.",
+          "corner_radius": "0–16 px",
+          "density": "Bildstark, aber mit ausreichenden Ruheflächen."
+        },
+        "information_hierarchy": [
+          "Beweis",
+          "Kontext",
+          "Fachlichkeit",
+          "Atmosphäre"
+        ],
+        "conversion_rules": [
+          "Bilder direkt mit passenden Leistungen oder Projekten verknüpfen.",
+          "Keine rein dekorativen Baustellenbilder einsetzen."
+        ],
+        "source_file": "C:\\Users\\jheim\\Documents\\Websites\\website-automation-bot\\website-automation-bot\\app\\knowledge\\imports\\pending\\documentary-field-photography-system.json"
+      },
+      "content": {
+        "id": "content-C-0001",
+        "slug": "multi-level-service-breakdown",
+        "role": "content",
+        "category": "content_architecture",
+        "name": "Multi-Level Service Breakdown",
+        "industries": [
+          "Energieberatung",
+          "Baumanagement",
+          "Ingenieurwesen",
+          "Fördermittelberatung",
+          "Sachverständigenwesen"
+        ],
+        "effects": [
+          "vollständig",
+          "verständlich",
+          "fachlich tief",
+          "navigierbar",
+          "SEO-stark"
+        ],
+        "archetype": "Layered Service Explanation",
+        "genome": {
+          "minimal": 54,
+          "editorial": 82,
+          "conversion_focus": 90,
+          "typography_dominance": 72,
+          "trust_density": 98,
+          "image_dominance": 42,
+          "whitespace": 64
+        },
+        "quality": 99,
+        "modernity": 87,
+        "premium": 85,
+        "innovation": 79,
+        "trust": 97,
+        "palette": {
+          "primary": "#183F51",
+          "secondary": "#E5ECE9",
+          "accent": "#49A469",
+          "background": "#F6F8F7",
+          "surface": "#FFFFFF",
+          "text": "#1B3540",
+          "border": "#D3DCD8",
+          "muted": "#6A7A81",
+          "hover": "#378954",
+          "gradient": []
+        },
+        "typography": {
+          "headline_style": "Klare H2/H3/H4-Leiter mit fachlich kontrollierten Umbrüchen.",
+          "body_style": "17–19 px, kurze Absätze, Listen und Zwischenfragen.",
+          "font_categories": [
+            "Humanistische Sans",
+            "Grotesk"
+          ],
+          "hierarchy": "H1 56–88 px; H2 42–68 px; H3 28–40 px; H4 20–26 px; Body 17–19 px.",
+          "line_height": "Headlines 1.05–1.2; Body 1.55–1.75.",
+          "letter_spacing": "Headlines leicht negativ.",
+          "weight_strategy": "H1/H2 650; H3 600; Body 400.",
+          "generator_rules": [
+            "Semantische H-Struktur zwingend korrekt.",
+            "Absätze auf 60–100 Wörter begrenzen.",
+            "Fachlisten syntaktisch parallel halten.",
+            "FAQ-Fragen nicht als optische Überschriften missbrauchen."
+          ]
+        },
+        "components": [
+          {
+            "type": "service_content_system",
+            "name": "Three-Level Technical Service Explanation",
+            "structure": "Leistungsfamilie → konkrete Leistung → Nutzenpunkte → vertiefende Fragen/Antworten → ergänzende Leistungen.",
+            "visual_behavior": "Überschriften, Listen und Textmodule variieren rhythmisch, ohne in Karteninflation zu geraten.",
+            "content_behavior": "Deckt Informations-, Vertrauens-, SEO- und Conversion-Bedarf auf einer Seite ab.",
+            "best_for": [
+              "erklärungsbedürftige Dienstleistungen",
+              "Förder- und Normthemen",
+              "umfangreiche Leistungsportfolios"
+            ],
+            "avoid_for": [
+              "einfache lokale Dienstleistungen mit wenigen Fragen"
+            ],
+            "strengths": [
+              "Sehr hohe inhaltliche Vollständigkeit",
+              "Starke organische Suchbasis",
+              "Reduziert Rückfragen"
+            ],
+            "risks": [
+              "Überlange Seite",
+              "veraltete Förderinformationen",
+              "Wiederholungen"
+            ],
+            "reuse_rules": [
+              "Jede Unterleistung mit Nutzen, Umfang und nächstem Schritt beschreiben.",
+              "Förderangaben mit Änderungsdatum oder Datenquelle verwalten.",
+              "Inhaltsverzeichnis ab vier Hauptkapiteln einsetzen."
+            ]
+          }
+        ],
+        "animations": [
+          {
+            "type": "section_anchor_highlight",
+            "trigger": "Scrollposition oder Ankerklick",
+            "behavior": "Aktives Kapitel wird in optionaler Inhaltsnavigation markiert; Inhalte selbst bleiben ruhig.",
+            "speed": "150–300 ms",
+            "intensity": "sehr niedrig",
+            "purpose": "Orientierung auf langen Fachseiten sichern.",
+            "best_for": [
+              "Leistungsseiten ab vier Kapiteln"
+            ],
+            "avoid_when": [
+              "kurze Seiten"
+            ]
+          }
+        ],
+        "generator_rules": [
+          "Wähle bei mehr als acht Einzelleistungen.",
+          "Baue zuerst Ontologie: Leistungsfamilie, Leistung, Anwendungsfall, Nutzen, Voraussetzungen, Belege, CTA.",
+          "Markiere zeitkritische Fakten als dynamic_fact.",
+          "Erzeuge Kapitelanker und kontextuelle CTAs automatisch."
+        ],
+        "design_rules": [
+          "Keine unstrukturierte Textwand.",
+          "Jede Ebene braucht eindeutige Überschrift.",
+          "Dynamische Informationen versionieren."
+        ],
+        "anti_patterns": [
+          "SEO-Text ohne Informationshierarchie",
+          "wiederholte Floskeln",
+          "unklare H-Struktur",
+          "veraltete Förderquoten",
+          "zu viele Akkordeons"
+        ],
+        "ux": {
+          "strengths": [
+            "Sehr hohe inhaltliche Vollständigkeit",
+            "Starke organische Suchbasis",
+            "Reduziert Rückfragen"
+          ],
+          "patterns": [
+            "Three-Level Technical Service Explanation",
+            "Layered Service Explanation"
+          ],
+          "generator_learning": [
+            "Wähle bei mehr als acht Einzelleistungen.",
+            "Baue zuerst Ontologie: Leistungsfamilie, Leistung, Anwendungsfall, Nutzen, Voraussetzungen, Belege, CTA.",
+            "Markiere zeitkritische Fakten als dynamic_fact."
+          ]
+        },
+        "layout_system": {
+          "grid": "Textkapitel 7–9 Spalten; ergänzende Fakten 3–5 Spalten; kompakte weitere Leistungen im 2–3-Spalten-Raster.",
+          "max_width": "1180–1420 px",
+          "spacing": "100–180 px zwischen Hauptkapiteln; 32–72 px innerhalb.",
+          "corner_radius": "0–14 px",
+          "density": "Wechselnd: erklärende Langform plus kompakte Faktenmodule."
+        },
+        "information_hierarchy": [
+          "Überblick",
+          "Leistungsfamilie",
+          "konkrete Leistung",
+          "Nutzen",
+          "Details",
+          "Handlung"
+        ],
+        "conversion_rules": [
+          "Zwischen-CTA nach jedem großen Leistungscluster, nicht nach jeder Unterleistung.",
+          "CTA kontextbezogen formulieren.",
+          "Terminbuchung und Anfrage als alternative Wege anbieten."
+        ],
+        "source_file": "C:\\Users\\jheim\\Documents\\Websites\\website-automation-bot\\website-automation-bot\\app\\knowledge\\imports\\pending\\multi-level-service-breakdown.json"
+      }
+    }
+  },
+  "palette_name": "palette-C-0002",
+  "tokens": {
+    "primary": "#143B5D",
+    "secondary": "#EAF5F5",
+    "accent": "#F5A623",
+    "background": "#F7FBFA",
+    "surface": "#FFFFFF",
+    "text": "#17364A",
+    "border": "#CFE2E3",
+    "muted": "#69818E",
+    "hover": "#0FA7C7",
+    "max_width": "1280px",
+    "radius": "28px"
+  },
+  "typography": {
+    "id": "typography-C-0002",
+    "heading": "system-ui, sans-serif",
+    "body": "system-ui, sans-serif"
+  },
+  "layout": {
+    "hero": "organic-flow",
+    "navigation": "mega-services",
+    "services": "horizontal-scroll",
+    "references": "timeline-projects",
+    "density": "generous"
+  },
+  "rules_used": [
+    {
+      "name": "reference-psm-ingenieure",
+      "path": "app/knowledge/design-system/seeded/reference-psm-ingenieure.md",
+      "excerpt": "--- approved_by_user: true industries: [engineering, architecture] reference: psmingenieure.de --- # Engineering UX Reference Stärken: moderne UX, hochwertige Projektinszenierung, klare visuelle Hierarchie, großzügige Bildflächen, reduzierte Navigation und ruhige Interaktionen. Referenzen und Projekte früh zeigen. Geeignet für Ingenieur-, Architektur- und Planungsbüros."
+    },
+    {
+      "name": "reference-ing-ka-hero",
+      "path": "app/knowledge/design-system/seeded/reference-ing-ka-hero.md",
+      "excerpt": "--- approved_by_user: true industries: [engineering, consulting] reference: ing-ka.de --- # Rotating Service Hero Hero mit wechselnden Leistungsbegriffen. Bewegung ruhig und typografisch präzise. Als Akzent nutzen, nicht als hektischen Slider. Gut für komplexe Dienstleistungsportfolios."
+    },
+    {
+      "name": "reference-energy-consulting",
+      "path": "app/knowledge/design-system/seeded/reference-energy-consulting.md",
+      "excerpt": "--- approved_by_user: true industries: [energy consulting, renovation] reference: kaminkehrermeister-forster.de/energieberatung --- # Energy Consulting Structure Persönliche Vorstellung, verständliche Leistungserklärung, Vertrauensaufbau, klarer Projektablauf und direkte Kontaktführung. Struktur übernehmen, visuelle Gestaltung modernisieren und schwache Formulierungen verbessern."
+    },
+    {
+      "name": "reference-bs-ingenieure",
+      "path": "app/knowledge/design-system/seeded/reference-bs-ingenieure.md",
+      "excerpt": "--- approved_by_user: true industries: [engineering, architecture] reference: bs-ingenieure.com --- # Contemporary Engineering Elements Klare Raster, typografisch geführte Flächen, technische Präzision, gezielte Mikrointeraktionen und projektorientierte Bildsprache. Keine dekorativen Karten ohne Informationsfunktion."
+    }
+  ],
+  "brand_fidelity": {
+    "palette_strategy": "preserve_primary_modernize_rest",
+    "brand_palette": {
+      "primary": "#173F52",
+      "secondary": "#E3EBE8",
+      "accent": "#49A469",
+      "background": "#F5F7F6",
+      "text": "#19343F",
+      "confidence": 0.25
+    },
+    "image_strategy": {
+      "logo": {
+        "file": "images/001-logo-886c88e2.jpg",
+        "role": "logo",
+        "width": 262,
+        "height": 106,
+        "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/01/logo.jpg",
+        "found_on": [
+          "https://www.kober-sanitaertechnik.de/",
+          "https://www.kober-sanitaertechnik.de/kontakt/",
+          "https://www.kober-sanitaertechnik.de/service/",
+          "https://www.kober-sanitaertechnik.de/badmodernisierung/",
+          "https://www.kober-sanitaertechnik.de/flaschnerei/",
+          "https://www.kober-sanitaertechnik.de/gasinstallation/",
+          "https://www.kober-sanitaertechnik.de/heizkraftanlage/",
+          "https://www.kober-sanitaertechnik.de/senertec/",
+          "https://www.kober-sanitaertechnik.de/solar-und-regenwasser-nutzung/",
+          "https://www.kober-sanitaertechnik.de/datenschutzerklaerung/"
+        ]
+      },
+      "hero": {
+        "file": "images/002-unternehmen-d4817392.jpg",
+        "role": "hero",
+        "width": 1200,
+        "height": 340,
+        "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2009/06/unternehmen.jpg",
+        "found_on": [
+          "https://www.kober-sanitaertechnik.de/"
+        ]
+      },
+      "references": [],
+      "portraits": [],
+      "usable": [
+        {
+          "file": "images/001-logo-886c88e2.jpg",
+          "role": "logo",
+          "width": 262,
+          "height": 106,
+          "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/01/logo.jpg",
+          "found_on": [
+            "https://www.kober-sanitaertechnik.de/",
+            "https://www.kober-sanitaertechnik.de/kontakt/",
+            "https://www.kober-sanitaertechnik.de/service/",
+            "https://www.kober-sanitaertechnik.de/badmodernisierung/",
+            "https://www.kober-sanitaertechnik.de/flaschnerei/",
+            "https://www.kober-sanitaertechnik.de/gasinstallation/",
+            "https://www.kober-sanitaertechnik.de/heizkraftanlage/",
+            "https://www.kober-sanitaertechnik.de/senertec/",
+            "https://www.kober-sanitaertechnik.de/solar-und-regenwasser-nutzung/",
+            "https://www.kober-sanitaertechnik.de/datenschutzerklaerung/"
+          ]
+        },
+        {
+          "file": "images/002-unternehmen-d4817392.jpg",
+          "role": "hero",
+          "width": 1200,
+          "height": 340,
+          "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2009/06/unternehmen.jpg",
+          "found_on": [
+            "https://www.kober-sanitaertechnik.de/"
+          ]
+        },
+        {
+          "file": "images/003-unternehmen-300x85-96154823.jpg",
+          "role": "hero",
+          "width": 300,
+          "height": 85,
+          "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2009/06/unternehmen-300x85.jpg",
+          "found_on": [
+            "https://www.kober-sanitaertechnik.de/"
+          ]
+        },
+        {
+          "file": "images/004-unternehmen-1024x290-fb18a4be.jpg",
+          "role": "hero",
+          "width": 1024,
+          "height": 290,
+          "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2009/06/unternehmen-1024x290.jpg",
+          "found_on": [
+            "https://www.kober-sanitaertechnik.de/"
+          ]
+        },
+        {
+          "file": "images/006-logo-duravit-300x71-61062663.png",
+          "role": "logo",
+          "width": 300,
+          "height": 71,
+          "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2009/06/Logo_Duravit-300x71.png",
+          "found_on": [
+            "https://www.kober-sanitaertechnik.de/"
+          ]
+        },
+        {
+          "file": "images/007-keramag-logo-300x101-fda78985.png",
+          "role": "logo",
+          "width": 300,
+          "height": 101,
+          "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2009/06/Keramag_logo-300x101.png",
+          "found_on": [
+            "https://www.kober-sanitaertechnik.de/"
+          ]
+        },
+        {
+          "file": "images/008-hansgrohe-logo-300x62-4ef07239.png",
+          "role": "logo",
+          "width": 300,
+          "height": 62,
+          "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2009/06/Hansgrohe-Logo-300x62.png",
+          "found_on": [
+            "https://www.kober-sanitaertechnik.de/"
+          ]
+        },
+        {
+          "file": "images/009-geberit-logo-300x41-eaaa0b61.png",
+          "role": "logo",
+          "width": 300,
+          "height": 41,
+          "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2009/06/Geberit-Logo-300x41.png",
+          "found_on": [
+            "https://www.kober-sanitaertechnik.de/"
+          ]
+        },
+        {
+          "file": "images/010-kontakt-ec4b0f89.jpg",
+          "role": "hero",
+          "width": 1200,
+          "height": 340,
+          "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/02/kontakt.jpg",
+          "found_on": [
+            "https://www.kober-sanitaertechnik.de/kontakt/",
+            "https://www.kober-sanitaertechnik.de/datenschutzerklaerung/"
+          ]
+        },
+        {
+          "file": "images/011-kontakt-300x85-c12fe330.jpg",
+          "role": "hero",
+          "width": 300,
+          "height": 85,
+          "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/02/kontakt-300x85.jpg",
+          "found_on": [
+            "https://www.kober-sanitaertechnik.de/kontakt/",
+            "https://www.kober-sanitaertechnik.de/datenschutzerklaerung/"
+          ]
+        },
+        {
+          "file": "images/012-kontakt-1024x290-9e2320bf.jpg",
+          "role": "hero",
+          "width": 1024,
+          "height": 290,
+          "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/02/kontakt-1024x290.jpg",
+          "found_on": [
+            "https://www.kober-sanitaertechnik.de/kontakt/",
+            "https://www.kober-sanitaertechnik.de/datenschutzerklaerung/"
+          ]
+        },
+        {
+          "file": "images/013-cb-maps-050d2bb4.png",
+          "role": "hero",
+          "width": 720,
+          "height": 405,
+          "source_url": "https://www.kober-sanitaertechnik.de/wp-content/plugins/borlabs-cookie/assets/images/cb-maps.png",
+          "found_on": [
+            "https://www.kober-sanitaertechnik.de/kontakt/"
+          ]
+        },
+        {
+          "file": "images/014-service-1af202f7.jpg",
+          "role": "hero",
+          "width": 1200,
+          "height": 340,
+          "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/02/service.jpg",
+          "found_on": [
+            "https://www.kober-sanitaertechnik.de/service/"
+          ]
+        },
+        {
+          "file": "images/015-service-300x85-5bfc03b8.jpg",
+          "role": "hero",
+          "width": 300,
+          "height": 85,
+          "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/02/service-300x85.jpg",
+          "found_on": [
+            "https://www.kober-sanitaertechnik.de/service/"
+          ]
+        },
+        {
+          "file": "images/016-service-1024x290-1bbf80b3.jpg",
+          "role": "hero",
+          "width": 1024,
+          "height": 290,
+          "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/02/service-1024x290.jpg",
+          "found_on": [
+            "https://www.kober-sanitaertechnik.de/service/"
+          ]
+        },
+        {
+          "file": "images/017-zusatzbild-service-1300babb.jpg",
+          "role": "hero",
+          "width": 360,
+          "height": 248,
+          "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/02/zusatzbild-service.jpg",
+          "found_on": [
+            "https://www.kober-sanitaertechnik.de/service/"
+          ]
+        },
+        {
+          "file": "images/018-bad-ml-a7f68952.jpg",
+          "role": "hero",
+          "width": 1200,
+          "height": 340,
+          "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2009/06/Bad_ml.jpg",
+          "found_on": [
+            "https://www.kober-sanitaertechnik.de/badmodernisierung/"
+          ]
+        },
+        {
+          "file": "images/019-bad-ml-300x85-a3b020dc.jpg",
+          "role": "hero",
+          "width": 300,
+          "height": 85,
+          "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2009/06/Bad_ml-300x85.jpg",
+          "found_on": [
+            "https://www.kober-sanitaertechnik.de/badmodernisierung/"
+          ]
+        },
+        {
+          "file": "images/020-bad-ml-1024x290-3e292cc7.jpg",
+          "role": "hero",
+          "width": 1024,
+          "height": 290,
+          "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2009/06/Bad_ml-1024x290.jpg",
+          "found_on": [
+            "https://www.kober-sanitaertechnik.de/badmodernisierung/"
+          ]
+        },
+        {
+          "file": "images/021-zusatzbild-bad-53b38ccf.jpg",
+          "role": "hero",
+          "width": 360,
+          "height": 228,
+          "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/02/zusatzbild-bad.jpg",
+          "found_on": [
+            "https://www.kober-sanitaertechnik.de/badmodernisierung/"
+          ]
+        },
+        {
+          "file": "images/022-flaschner-2a6249da.jpg",
+          "role": "hero",
+          "width": 1200,
+          "height": 340,
+          "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/02/flaschner.jpg",
+          "found_on": [
+            "https://www.kober-sanitaertechnik.de/flaschnerei/"
+          ]
+        },
+        {
+          "file": "images/023-flaschner-300x85-92c83b8c.jpg",
+          "role": "hero",
+          "width": 300,
+          "height": 85,
+          "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/02/flaschner-300x85.jpg",
+          "found_on": [
+            "https://www.kober-sanitaertechnik.de/flaschnerei/"
+          ]
+        },
+        {
+          "file": "images/024-flaschner-1024x290-1b0b904d.jpg",
+          "role": "hero",
+          "width": 1024,
+          "height": 290,
+          "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/02/flaschner-1024x290.jpg",
+          "found_on": [
+            "https://www.kober-sanitaertechnik.de/flaschnerei/"
+          ]
+        },
+        {
+          "file": "images/025-zusatzbild-flaschnerei-13aec4d7.jpg",
+          "role": "hero",
+          "width": 360,
+          "height": 240,
+          "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/02/zusatzbild-flaschnerei.jpg",
+          "found_on": [
+            "https://www.kober-sanitaertechnik.de/flaschnerei/"
+          ]
+        },
+        {
+          "file": "images/026-gas-bc9946a9.jpg",
+          "role": "hero",
+          "width": 1200,
+          "height": 340,
+          "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/02/gas.jpg",
+          "found_on": [
+            "https://www.kober-sanitaertechnik.de/gasinstallation/"
+          ]
+        },
+        {
+          "file": "images/027-gas-300x85-a5b4cf30.jpg",
+          "role": "hero",
+          "width": 300,
+          "height": 85,
+          "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/02/gas-300x85.jpg",
+          "found_on": [
+            "https://www.kober-sanitaertechnik.de/gasinstallation/"
+          ]
+        },
+        {
+          "file": "images/028-gas-1024x290-f3469b9d.jpg",
+          "role": "hero",
+          "width": 1024,
+          "height": 290,
+          "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/02/gas-1024x290.jpg",
+          "found_on": [
+            "https://www.kober-sanitaertechnik.de/gasinstallation/"
+          ]
+        },
+        {
+          "file": "images/029-zusatzbild-gas-644b6d44.jpg",
+          "role": "hero",
+          "width": 360,
+          "height": 240,
+          "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/02/zusatzbild-gas.jpg",
+          "found_on": [
+            "https://www.kober-sanitaertechnik.de/gasinstallation/"
+          ]
+        },
+        {
+          "file": "images/030-eenergie-923fdf86.jpg",
+          "role": "hero",
+          "width": 1200,
+          "height": 340,
+          "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/02/eenergie.jpg",
+          "found_on": [
+            "https://www.kober-sanitaertechnik.de/heizkraftanlage/"
+          ]
+        },
+        {
+          "file": "images/031-eenergie-300x85-7eb95fb6.jpg",
+          "role": "hero",
+          "width": 300,
+          "height": 85,
+          "source_url": "https://www.kober-sanitaertechnik.de/wp-content/uploads/2015/02/eenergie-300x85.jpg",
+          "found_on": [
+            "https://www.kober-sanitaertechnik.de/heizkraftanlage/"
+          ]
+        }
+      ],
+      "usage_target": 10
+    },
+    "content_fidelity": {
+      "references_present": false,
+      "service_count": 12,
+      "image_count": 41,
+      "usable_image_count": 30
+    }
+  }
+}
