@@ -29,12 +29,17 @@
     "Pelletheizung"
   ],
   "brand_palette": {
-    "primary": "#173F52",
-    "secondary": "#E3EBE8",
-    "accent": "#49A469",
-    "background": "#F5F7F6",
-    "text": "#19343F",
-    "confidence": 0.25
+    "primary": "#204756",
+    "secondary": "#E8EEEC",
+    "accent": "#ABDEF1",
+    "background": "#F6F8E3",
+    "surface": "#FFFFFF",
+    "text": "#172126",
+    "border": "#D4DAD7",
+    "muted": "#68757A",
+    "hover": "#204756",
+    "confidence": 0.756,
+    "source": "design-memory:palette-1517e0fb678b4ec694e8cdf90a52d0f8-20260723-001801"
   },
   "palette_strategy": "preserve_primary_modernize_rest",
   "image_strategy": {
@@ -391,28 +396,7 @@
     "image_count": 41,
     "usable_image_count": 30
   },
-  "design_rules": [
-    {
-      "name": "reference-psm-ingenieure",
-      "path": "app/knowledge/design-system/seeded/reference-psm-ingenieure.md",
-      "excerpt": "--- approved_by_user: true industries: [engineering, architecture] reference: psmingenieure.de --- # Engineering UX Reference Stärken: moderne UX, hochwertige Projektinszenierung, klare visuelle Hierarchie, großzügige Bildflächen, reduzierte Navigation und ruhige Interaktionen. Referenzen und Projekte früh zeigen. Geeignet für Ingenieur-, Architektur- und Planungsbüros."
-    },
-    {
-      "name": "reference-ing-ka-hero",
-      "path": "app/knowledge/design-system/seeded/reference-ing-ka-hero.md",
-      "excerpt": "--- approved_by_user: true industries: [engineering, consulting] reference: ing-ka.de --- # Rotating Service Hero Hero mit wechselnden Leistungsbegriffen. Bewegung ruhig und typografisch präzise. Als Akzent nutzen, nicht als hektischen Slider. Gut für komplexe Dienstleistungsportfolios."
-    },
-    {
-      "name": "reference-energy-consulting",
-      "path": "app/knowledge/design-system/seeded/reference-energy-consulting.md",
-      "excerpt": "--- approved_by_user: true industries: [energy consulting, renovation] reference: kaminkehrermeister-forster.de/energieberatung --- # Energy Consulting Structure Persönliche Vorstellung, verständliche Leistungserklärung, Vertrauensaufbau, klarer Projektablauf und direkte Kontaktführung. Struktur übernehmen, visuelle Gestaltung modernisieren und schwache Formulierungen verbessern."
-    },
-    {
-      "name": "reference-bs-ingenieure",
-      "path": "app/knowledge/design-system/seeded/reference-bs-ingenieure.md",
-      "excerpt": "--- approved_by_user: true industries: [engineering, architecture] reference: bs-ingenieure.com --- # Contemporary Engineering Elements Klare Raster, typografisch geführte Flächen, technische Präzision, gezielte Mikrointeraktionen und projektorientierte Bildsprache. Keine dekorativen Karten ohne Informationsfunktion."
-    }
-  ],
+  "design_rules": [],
   "publishing": {
     "noindex": true,
     "provider": "github-pages"
